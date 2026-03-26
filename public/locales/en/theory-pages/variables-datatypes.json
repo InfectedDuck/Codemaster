@@ -1,0 +1,122 @@
+{
+  "pageTitle": "Variables & Data Types - Python Theory",
+  "header": {
+    "title": "Variables, Data Types & Operators",
+    "subtitle": "Foundation Level • 45 minutes • Learn the fundamentals of Python data"
+  },
+  "sidebar": {
+    "title": "Contents"
+  },
+  "sections": {
+    "introduction": {
+      "navTitle": "Introduction",
+      "title": "Introduction to Python Fundamentals",
+      "paragraph1": "Welcome to the foundation of Python programming! In this lesson, you'll learn how to store and manipulate data using variables, understand different data types, and perform operations with operators.",
+      "callout": "<strong>What you'll learn:</strong> By the end of this lesson, you'll understand how to create variables, work with numbers and text, make logical decisions with booleans, and perform calculations and comparisons using operators.",
+      "whyTitle": "Why This Matters",
+      "whyParagraph": "Variables and data types are the building blocks of every Python program. They allow you to:",
+      "whyList": [
+        "Store and retrieve information",
+        "Perform calculations and data manipulation",
+        "Make decisions based on conditions",
+        "Build complex applications from simple components"
+      ]
+    },
+    "variables": {
+      "navTitle": "Variables",
+      "title": "Variables in Python",
+      "paragraph1": "Variables are like containers that store data values. In Python, you create a variable by simply assigning a value to a name using the equals sign (=).",
+      "namingRulesTitle": "Variable Naming Rules",
+      "namingRules": [
+        "Start with letter or underscore",
+        "Use letters, numbers, underscores",
+        "Case sensitive (age \u2260 Age)",
+        "No spaces or special characters"
+      ],
+      "bestPracticesTitle": "Best Practices",
+      "bestPractices": [
+        "Use descriptive names",
+        "Use snake_case for variables",
+        "Avoid Python keywords",
+        "Keep names concise but clear"
+      ],
+      "dynamicTypingTitle": "Dynamic Typing",
+      "dynamicTypingParagraph": "Python is dynamically typed, meaning you don't need to declare the type of a variable. The type is determined automatically based on the value you assign."
+    },
+    "numbers": {
+      "navTitle": "Numbers",
+      "title": "Working with Numbers",
+      "paragraph1": "Python supports two main types of numbers: integers (whole numbers) and floats (decimal numbers). You can perform various mathematical operations with them.",
+      "integersTitle": "Integers",
+      "integersDescription": "Whole numbers without decimal points",
+      "floatsTitle": "Floats",
+      "floatsDescription": "Numbers with decimal points",
+      "scientificTitle": "Scientific",
+      "scientificDescription": "Large numbers in scientific notation"
+    },
+    "strings": {
+      "navTitle": "Strings",
+      "title": "Working with Strings",
+      "paragraph1": "Strings are sequences of characters used to represent text. Python provides powerful tools for creating and manipulating strings.",
+      "methodsTitle": "Common String Methods",
+      "methodUpper": "Convert to uppercase",
+      "methodLower": "Convert to lowercase",
+      "methodStrip": "Remove whitespace",
+      "methodLen": "Get string length",
+      "methodSplit": "Split into list",
+      "methodReplace": "Replace text"
+    },
+    "booleans": {
+      "navTitle": "Booleans",
+      "title": "Boolean Values",
+      "paragraph1": "Booleans represent truth values: True or False. They're essential for making decisions in your programs.",
+      "falsyTitle": "Falsy Values",
+      "falsyEmptyString": "(empty string)",
+      "falsyEmptyList": "(empty list)",
+      "truthyTitle": "Truthy Values",
+      "truthyNonZero": "Any non-zero number",
+      "truthyNonEmptyString": "Any non-empty string",
+      "truthyNonEmptyCollection": "Any non-empty collection",
+      "truthyMostObjects": "Most objects"
+    },
+    "operators": {
+      "navTitle": "Operators",
+      "title": "Python Operators",
+      "paragraph1": "Operators are special symbols that perform operations on variables and values. Python has several types of operators.",
+      "arithmeticTitle": "Arithmetic",
+      "arithmeticAddition": "Addition",
+      "arithmeticSubtraction": "Subtraction",
+      "arithmeticMultiplication": "Multiplication",
+      "arithmeticDivision": "Division",
+      "arithmeticFloorDivision": "Floor Division",
+      "arithmeticModulus": "Modulus",
+      "arithmeticExponentiation": "Exponentiation",
+      "comparisonTitle": "Comparison",
+      "comparisonEqual": "Equal to",
+      "comparisonNotEqual": "Not equal to",
+      "comparisonGreater": "Greater than",
+      "comparisonLess": "Less than",
+      "comparisonGreaterEqual": "Greater than or equal",
+      "comparisonLessEqual": "Less than or equal",
+      "logicalTitle": "Logical",
+      "logicalAnd": "Logical AND",
+      "logicalOr": "Logical OR",
+      "logicalNot": "Logical NOT",
+      "logicalMembership": "Membership",
+      "logicalIdentity": "Identity"
+    },
+    "practice": {
+      "navTitle": "Practice",
+      "title": "Practice Exercises",
+      "exercise1Title": "Exercise 1: Personal Information",
+      "exercise1Description": "Create variables to store your personal information and print a formatted introduction.",
+      "exercise2Title": "Exercise 2: Calculator",
+      "exercise2Description": "Create a simple calculator that performs basic operations on two numbers.",
+      "exercise3Title": "Exercise 3: String Manipulation",
+      "exercise3Description": "Work with string methods to clean and format text data.",
+      "ctaTitle": "Ready to Test Your Knowledge?",
+      "ctaDescription": "Take our interactive quiz to see how well you've mastered variables, data types, and operators!",
+      "ctaButton": "Test My Knowledge"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Python Quiz",
+  "question": "Question",
+  "of": "of",
+  "answered": "answered",
+  "previous": "Previous",
+  "next": "Next",
+  "submitTest": "Submit Test",
+  "results": {
+    "title": "Test Results",
+    "score": "Score",
+    "correct": "Correct Answers",
+    "incorrect": "Incorrect Answers",
+    "review": "Review Answers",
+    "retake": "Retake Test",
+    "backToTheory": "Back to Theory",
+    "yourAnswer": "Your answer",
+    "correctAnswer": "Correct answer",
+    "explanation": "Explanation"
+  },
+  "topicNotFound": "Topic not found",
+  "topicNotFoundDesc": "The quiz topic you are looking for does not exist.",
+  "backToTopics": "Back to Topics",
+  "startQuiz": "Start Quiz",
+  "questionsCount": "questions"
+}

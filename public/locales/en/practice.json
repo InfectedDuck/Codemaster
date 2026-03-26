@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Python Practice Arena",
+  "pageSubtitle": "Sharpen your skills with hands-on coding challenges.",
+  "codeExamples": {
+    "hello-world": {
+      "title": "Hello World",
+      "description": "Start with the classic first program"
+    },
+    "variables": {
+      "title": "Variables and Data Types",
+      "description": "Learn about different data types in Python"
+    },
+    "lists": {
+      "title": "Working with Lists",
+      "description": "Explore Python lists and their methods"
+    },
+    "functions": {
+      "title": "Functions and Parameters",
+      "description": "Create reusable code with functions"
+    },
+    "loops": {
+      "title": "Loops and Iteration",
+      "description": "Master for and while loops"
+    },
+    "dictionaries": {
+      "title": "Dictionaries",
+      "description": "Work with key-value pairs"
+    },
+    "list-comprehension": {
+      "title": "List Comprehensions",
+      "description": "Create lists in a more Pythonic way"
+    },
+    "file-handling": {
+      "title": "File Operations",
+      "description": "Read and write files in Python"
+    },
+    "error-handling": {
+      "title": "Error Handling",
+      "description": "Handle errors gracefully with try-except"
+    },
+    "classes-objects": {
+      "title": "Classes and Objects (OOP)",
+      "description": "Understand Object-Oriented Programming"
+    },
+    "api-request": {
+      "title": "API Request Simulation",
+      "description": "Simulate fetching data from a web API"
+    }
+  },
+  "categories": {
+    "all": "All",
+    "basics": "Basics",
+    "dataStructures": "Data Structures",
+    "functions": "Functions",
+    "controlFlow": "Control Flow",
+    "advanced": "Advanced",
+    "fileIO": "File I/O",
+    "errorHandling": "Error Handling",
+    "oop": "OOP",
+    "web": "Web"
+  }
+}

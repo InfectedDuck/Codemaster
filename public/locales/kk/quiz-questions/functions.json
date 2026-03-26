@@ -1,0 +1,224 @@
+{
+  "questions": {
+    "fn_001": {
+      "question": "Python-да функцияны анықтау үшін қай кілт сөз қолданылады?",
+      "options": ["function", "def", "define", "func"],
+      "explanation": "def кілт сөзі Python-да функцияларды анықтау үшін қолданылады."
+    },
+    "fn_002": {
+      "question": "Бұл функция нені қайтарады?\n\ndef add_numbers(a, b):\n    a + b\n\nresult = add_numbers(3, 5)",
+      "options": ["8", "3", "5", "None"],
+      "explanation": "return операторысыз функциялар әдепкі бойынша None қайтарады."
+    },
+    "fn_003": {
+      "question": "Функциядағы параметр дегеніміз не?",
+      "options": ["Қайтарылатын мән", "Функция анықтамасындағы айнымалы", "Функция атауы", "Функция шақыруы"],
+      "explanation": "Параметрлер -- функция анықтамасында тізімделген айнымалылар, шақырылған кезде мәндерді қабылдайды."
+    },
+    "fn_004": {
+      "question": "Бұл код нені шығарады?\n\ndef greet(name=\"World\"):\n    return f\"Hello, {name}!\"\n\nprint(greet())",
+      "options": ["Hello, !", "Hello, World!", "Error", "Hello, name!"],
+      "explanation": "Аргумент берілмегенде, әдепкі параметр мәні \"World\" қолданылады."
+    },
+    "fn_005": {
+      "question": "Функция ішінде анықталған айнымалының ауқымы қандай?",
+      "options": ["Ғаламдық", "Жергілікті", "Әмбебап", "Модульдік"],
+      "explanation": "Функция ішінде анықталған айнымалылар жергілікті ауқымға ие және тек сол функция ішінде қолжетімді."
+    },
+    "fn_006": {
+      "question": "try-except блогының мақсаты қандай?",
+      "options": ["Функцияларды анықтау", "Қателерді өңдеу", "Циклдар құру", "Модульдерді импорттау"],
+      "explanation": "try-except блоктары ерекше жағдайлар мен қателерді дұрыс өңдеу үшін қолданылады."
+    },
+    "fn_007": {
+      "question": "Бұл функция нені қайтарады?\n\ndef add(a, b=5):\n    return a + b\n\nresult = add(3)",
+      "options": ["3", "5", "8", "Error"],
+      "explanation": "Функция b=5 әдепкі мәнін қолданады, сондықтан 3 + 5 = 8 қайтарады."
+    },
+    "fn_008": {
+      "question": "Нөлге бөлгенде қай ерекше жағдай туындайды?",
+      "options": ["ValueError", "TypeError", "ZeroDivisionError", "ArithmeticError"],
+      "explanation": "ZeroDivisionError нөлге бөлу әрекеті кезінде арнайы туындайды."
+    },
+    "fn_009": {
+      "question": "Бұл код не істейді?\n\ndef func():\n    global x\n    x = 10\n\nx = 5\nfunc()\nprint(x)",
+      "options": ["5 шығарады", "10 шығарады", "Қате", "None шығарады"],
+      "explanation": "global кілт сөзі функцияға ғаламдық x айнымалысын өзгертуге мүмкіндік береді."
+    },
+    "fn_010": {
+      "question": "\"calculate\" атты функцияны 5 және 10 аргументтерімен қалай шақырасыз?",
+      "options": ["calculate[5, 10]", "calculate(5, 10)", "call calculate(5, 10)", "run calculate(5, 10)"],
+      "explanation": "Функциялар атауынан кейін жақшалар ішінде аргументтер жазу арқылы шақырылады."
+    },
+    "fn_011": {
+      "question": "Функцияда бірнеше return операторы болғанда не болады?",
+      "options": ["Барлық return-дар орындалады", "Тек бірінші return орындалады", "Тек соңғы return орындалады", "Қате пайда болады"],
+      "explanation": "return операторына жеткенде функция бірден аяқталады."
+    },
+    "fn_012": {
+      "question": "Бұл функция нені қайтарады?\n\ndef check_number(n):\n    if n > 0:\n        return \"positive\"\n    elif n < 0:\n        return \"negative\"\n    else:\n        return \"zero\"\n\nresult = check_number(0)",
+      "options": ["positive", "negative", "zero", "None"],
+      "explanation": "n 0-ге тең болғандықтан, else бөлімі орындалады және \"zero\" қайтарылады."
+    },
+    "fn_013": {
+      "question": "Функцияны кілт сөзді аргументтермен шақырудың дұрыс жолы қандай?",
+      "options": ["func(a=5, b=10)", "func(a:5, b:10)", "func(5=a, 10=b)", "func(a->5, b->10)"],
+      "explanation": "Кілт сөзді аргументтер параметр_атауы=мән форматын қолданады."
+    },
+    "fn_014": {
+      "question": "Бұл код нені шығарады?\n\ntry:\n    x = 10 / 0\nexcept ZeroDivisionError:\n    print(\"Cannot divide by zero\")\nelse:\n    print(\"Division successful\")",
+      "options": ["Cannot divide by zero", "Division successful", "Екі хабарлама да", "Қате"],
+      "explanation": "ZeroDivisionError туындағандықтан except блогы орындалады; else блогы өткізіледі."
+    },
+    "fn_015": {
+      "question": "Функциядағы docstring дегеніміз не?",
+      "options": ["Түсініктеме", "Құжаттама жолы", "Айнымалы", "Қате хабарламасы"],
+      "explanation": "docstring -- функцияның не істейтінін сипаттайтын құжаттама жолы."
+    },
+    "fn_016": {
+      "question": "Бұл функция нені қайтарады?\n\ndef multiply(*args):\n    result = 1\n    for num in args:\n        result *= num\n    return result\n\nprint(multiply(2, 3, 4))",
+      "options": ["9", "24", "6", "Error"],
+      "explanation": "*args айнымалы санды аргументтерді қабылдауға мүмкіндік береді. 2 * 3 * 4 = 24."
+    },
+    "fn_017": {
+      "question": "Python-да LEGB ережесі неге қатысты?",
+      "options": ["Цикл құрылымы", "Айнымалылар ауқымын шешу", "Функция атаулары", "Қателерді өңдеу"],
+      "explanation": "LEGB -- Local, Enclosing, Global, Built-in ауқымдарын шешу реті."
+    },
+    "fn_018": {
+      "question": "Бұл код не істейді?\n\ndef safe_divide(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        return 0\n\nresult = safe_divide(10, 0)",
+      "options": ["10 қайтарады", "0 қайтарады", "Қате туындатады", "None қайтарады"],
+      "explanation": "except блогы ZeroDivisionError қатесін ұстап, 0 қайтарады."
+    },
+    "fn_019": {
+      "question": "Функцияны анықтамас бұрын шақырсаңыз не болады?",
+      "options": ["Дұрыс жұмыс істейді", "NameError туындайды", "Функция None қайтарады", "Python автоматты түрде анықтайды"],
+      "explanation": "Python функцияны анықтамас бұрын шақыруға тырыссаңыз NameError туындатады."
+    },
+    "fn_020": {
+      "question": "Бұл функция нені қайтарады?\n\ndef get_info():\n    name = \"Alice\"\n    age = 25\n    return name, age\n\nresult = get_info()",
+      "options": ["Alice", "25", "(\"Alice\", 25)", "Error"],
+      "explanation": "Бірнеше қайтару мәндері кортеж ретінде қайтарылады."
+    },
+    "fn_021": {
+      "question": "Параметрлер мен аргументтердің айырмашылығы қандай?",
+      "options": ["Айырмашылық жоқ", "Параметрлер анықтамада, аргументтер шақыруда", "Аргументтер анықтамада, параметрлер шақыруда", "Параметрлер міндетті емес"],
+      "explanation": "Параметрлер -- функция анықтамасындағы айнымалылар, аргументтер -- шақыру кезінде берілетін мәндер."
+    },
+    "fn_022": {
+      "question": "Бұл код нені шығарады?\n\nx = \"global\"\n\ndef test():\n    x = \"local\"\n    print(x)\n\ntest()\nprint(x)",
+      "options": ["global global", "local local", "local global", "global local"],
+      "explanation": "Функция өзінің жергілікті x мәнін шығарады, содан кейін сыртта ғаламдық x шығарылады."
+    },
+    "fn_023": {
+      "question": "try-except-finally құрылымында қай блок әрқашан орындалады?",
+      "options": ["try", "except", "finally", "Ешқайсысына кепілдік жоқ"],
+      "explanation": "finally блогы ерекше жағдай болсын немесе болмасын әрқашан орындалады."
+    },
+    "fn_024": {
+      "question": "Әдепкі параметрлері бар функцияны анықтаудың дұрыс жолы қандай?",
+      "options": ["def func(a=5, b):", "def func(b, a=5):", "def func(a, b=5):", "B және C екеуі де"],
+      "explanation": "Әдепкі параметрлер міндетті параметрлерден кейін келуі мүмкін. B және C нұсқалары жарамды."
+    },
+    "fn_025": {
+      "question": "Бұл функция не істейді?\n\ndef process_list(lst):\n    lst.append(100)\n    return lst\n\nmy_list = [1, 2, 3]\nresult = process_list(my_list)\nprint(my_list)",
+      "options": ["[1, 2, 3]", "[1, 2, 3, 100]", "Error", "[100]"],
+      "explanation": "Тізімдер өзгермелі; функция бастапқы тізімді өзгертеді."
+    },
+    "fn_026": {
+      "question": "\"abc\" жолын int-ке түрлендіргенде қандай ерекше жағдай туындайды?",
+      "options": ["TypeError", "ValueError", "ConversionError", "SyntaxError"],
+      "explanation": "ValueError мәннің типі дұрыс, бірақ мәні сәйкес емес болғанда туындайды."
+    },
+    "fn_027": {
+      "question": "Бұл код нені шығарады?\n\ndef outer():\n    x = 10\n    def inner():\n        print(x)\n    inner()\n\nouter()",
+      "options": ["10", "Error", "None", "NameError"],
+      "explanation": "Ішкі функциялар қоршаған ауқымдағы айнымалыларға қол жеткізе алады."
+    },
+    "fn_028": {
+      "question": "Мәнсіз return қолданғанда не болады?",
+      "options": ["Қате пайда болады", "0 қайтарады", "None қайтарады", "Бос жол қайтарады"],
+      "explanation": "Мәнсіз return операторы немесе return болмауы None қайтарады."
+    },
+    "fn_029": {
+      "question": "Бір except блогында бірнеше ерекше жағдай типтерін қалай өңдейсіз?",
+      "options": ["except ValueError, TypeError:", "except (ValueError, TypeError):", "except ValueError or TypeError:", "except ValueError and TypeError:"],
+      "explanation": "Бірнеше ерекше жағдай типтері жақшалардағы кортеж арқылы өңделеді."
+    },
+    "fn_030": {
+      "question": "Бұл функция нені қайтарады?\n\ndef mystery(a, b, c=10):\n    return a + b * c\n\nresult = mystery(5, 2)",
+      "options": ["7", "25", "70", "Error"],
+      "explanation": "a=5, b=2, c=10 (әдепкі). 5 + 2 * 10 = 5 + 20 = 25 қайтарады."
+    },
+    "fn_031": {
+      "question": "global кілт сөзінің мақсаты қандай?",
+      "options": ["Ғаламдық айнымалылар құру", "Ғаламдық айнымалыларға қол жеткізу", "Функциялардан ғаламдық айнымалыларды өзгерту", "Ғаламдық айнымалыларды жою"],
+      "explanation": "global кілт сөзі функцияларға ғаламдық айнымалыларды өзгертуге мүмкіндік береді."
+    },
+    "fn_032": {
+      "question": "Бұл код не істейді?\n\ntry:\n    result = int(\"123\")\nexcept ValueError:\n    print(\"Error\")\nelse:\n    print(\"Success\")\nfinally:\n    print(\"Done\")",
+      "options": ["Success Done", "Error Done", "Success", "Done"],
+      "explanation": "Қате болмайды, сондықтан else орындалады (\"Success\"), содан кейін finally әрқашан орындалады (\"Done\")."
+    },
+    "fn_033": {
+      "question": "Функцияны құжаттаудың дұрыс жолы қандай?",
+      "options": ["# Функция үстіндегі түсініктеме", "Функция ішіндегі үш тырнақшалы жол", "// Түсініктеме", "docstring() функциясы"],
+      "explanation": "Docstring-тер функция денесінің басында орналасқан үш тырнақшалы жолдар."
+    },
+    "fn_034": {
+      "question": "Бұл функция нені қайтарады?\n\ndef calculate(x, y, operation=\"add\"):\n    if operation == \"add\":\n        return x + y\n    elif operation == \"subtract\":\n        return x - y\n    else:\n        return None\n\nresult = calculate(10, 5)",
+      "options": ["15", "5", "None", "Error"],
+      "explanation": "Әдепкі операция \"add\", сондықтан 10 + 5 = 15 қайтарады."
+    },
+    "fn_035": {
+      "question": "Ерекше жағдай ұсталмаса не болады?",
+      "options": ["Бағдарлама жалғасады", "Бағдарлама тоқтайды", "Ерекше жағдай еленбейді", "Функция None қайтарады"],
+      "explanation": "Ұсталмаған ерекше жағдайлар бағдарламаны қате хабарламасымен тоқтатады."
+    },
+    "fn_036": {
+      "question": "Бұл код нені шығарады?\n\ndef modify_value(x):\n    x = x + 10\n    return x\n\nvalue = 5\nresult = modify_value(value)\nprint(value)",
+      "options": ["5", "15", "10", "Error"],
+      "explanation": "Бүтін сандар өзгермейтін; бастапқы айнымалы өзгертілмейді."
+    },
+    "fn_037": {
+      "question": "Функциядағы return мен print арасындағы айырмашылық қандай?",
+      "options": ["Айырмашылық жоқ", "return мәнді кері жібереді, print мәнді көрсетеді", "print мәнді кері жібереді, return мәнді көрсетеді", "Екеуі де бірдей нәрсе жасайды"],
+      "explanation": "return мәнді шақырушыға қайтарады, print мәнді экранға шығарады."
+    },
+    "fn_038": {
+      "question": "Бұл функция не істейді?\n\ndef validate_input(value):\n    try:\n        num = int(value)\n        if num < 0:\n            raise ValueError(\"Negative number\")\n        return num\n    except ValueError as e:\n        print(f\"Error: {e}\")\n        return None\n\nresult = validate_input(\"-5\")",
+      "options": ["-5 қайтарады", "None қайтарады және қатені шығарады", "Ерекше жағдай туындатады", "0 қайтарады"],
+      "explanation": "Функция теріс сандар үшін ValueError туындатады, ол ұсталып, қате шығарылады."
+    },
+    "fn_039": {
+      "question": "Функция параметрлерінің ауқымы қандай?",
+      "options": ["Ғаламдық", "Функцияға жергілікті", "Параметрге байланысты", "Кіріктірілген"],
+      "explanation": "Функция параметрлері функция ішінде жергілікті ауқымға ие."
+    },
+    "fn_040": {
+      "question": "Бұл код нені шығарады?\n\ndef test(**kwargs):\n    for key, value in kwargs.items():\n        print(f\"{key}: {value}\")\n\ntest(name=\"Alice\", age=25)",
+      "options": ["name: Alice age: 25", "Alice 25", "Error", "name age Alice 25"],
+      "explanation": "**kwargs кілт сөзді аргументтерді сөздікке жинайды."
+    },
+    "fn_041": {
+      "question": "try-except блоктарын қашан қолдану керек?",
+      "options": ["Әрқашан", "Ешқашан", "Қателер күтілгенде", "Тек синтаксистік қателер үшін"],
+      "explanation": "Операция сәтсіз аяқталуы мүмкін деп күткенде try-except қолданыңыз."
+    },
+    "fn_042": {
+      "question": "Бұл функция нені қайтарады?\n\ndef fibonacci(n):\n    if n <= 1:\n        return n\n    return fibonacci(n-1) + fibonacci(n-2)\n\nresult = fibonacci(4)",
+      "options": ["3", "4", "5", "Error"],
+      "explanation": "Фибоначчи тізбегі: f(4) = f(3) + f(2) = 2 + 1 = 3."
+    },
+    "fn_043": {
+      "question": "Python-дағы pass операторының мақсаты қандай?",
+      "options": ["Функцияны анықтау", "Бос цикл құру", "Бос функция құру", "Модульді импорттау"],
+      "explanation": "pass операторы -- бос операция; ол ештеңе жасамайды және толтырғыш ретінде қолданылады."
+    },
+    "fn_044": {
+      "question": "Python-да функцияны анықтау үшін қай кілт сөз қолданылады?",
+      "options": ["def", "function", "fun", "define"],
+      "explanation": "Функцияны скрипттте шақырмас бұрын анықтау қажет."
+    }
+  }
+}

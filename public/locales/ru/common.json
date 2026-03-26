@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Главная",
+    "theory": "Теория",
+    "practice": "Практика",
+    "challenges": "Задачи",
+    "getStarted": "Начать"
+  },
+  "footer": {
+    "tagline": "Освойте программирование на Python с интерактивными уроками и обратной связью в реальном времени.",
+    "learning": "Обучение",
+    "pythonBasics": "Основы Python",
+    "dataStructures": "Структуры данных",
+    "oop": "ООП",
+    "advancedTopics": "Продвинутые темы",
+    "practice": "Практика",
+    "codeChallenges": "Задачи по программированию",
+    "multipleChoice": "Тесты с выбором ответа",
+    "projects": "Проекты",
+    "codeEditor": "Редактор кода",
+    "support": "Поддержка",
+    "helpCenter": "Справочный центр",
+    "community": "Сообщество",
+    "contactUs": "Связаться с нами",
+    "privacyPolicy": "Политика конфиденциальности",
+    "copyright": "\u00a9 2025 CodeMaster by kametaytoktar. Все права защищены."
+  },
+  "difficulty": {
+    "all": "Все",
+    "foundation": "Основы",
+    "intermediate": "Средний",
+    "advanced": "Продвинутый",
+    "projects": "Проекты",
+    "easy": "Лёгкий",
+    "medium": "Средний",
+    "hard": "Сложный",
+    "beginner": "Начинающий"
+  },
+  "buttons": {
+    "startLearning": "Начать обучение",
+    "testKnowledge": "Проверить знания",
+    "previous": "Назад",
+    "next": "Далее",
+    "submitTest": "Отправить тест",
+    "tryEditor": "Попробовать редактор",
+    "tryItNow": "Попробовать сейчас"
+  },
+  "dashboard": {
+    "title": "Ваша панель обучения",
+    "pythonBasics": "Основы Python",
+    "dataStructures": "Структуры данных",
+    "oopConcepts": "Концепции ООП",
+    "lessonsCompleted": "Уроков пройдено",
+    "challengesSolved": "Задач решено",
+    "daysStreak": "Дней подряд"
+  },
+  "interpreter": {
+    "notReady": "Интерпретатор Python ещё не готов. Пожалуйста, подождите...",
+    "loading": "Загрузка...",
+    "loadingInterpreter": "Загрузка интерпретатора Python...",
+    "running": "Выполнение...",
+    "run": "Запустить (Ctrl+Enter)",
+    "clear": "Очистить",
+    "output": "Вывод",
+    "outputPlaceholder": "Результат появится здесь...",
+    "noOutput": "[Нет вывода]",
+    "codePlaceholder": "# Напишите ваш код на Python здесь...\n# Нажмите Ctrl+Enter для запуска\n\nprint('Привет, мир!')"
+  },
+  "ai": {
+    "title": "AI-ассистент",
+    "description": "Застряли? Попросите подсказку, объяснение или предложение по улучшению кода.",
+    "placeholder": "напр., Объясни этот код построчно...",
+    "askButton": "Спросить AI",
+    "thinking": "Думаю...",
+    "response": "Ответ AI:",
+    "error": "Извините, произошла ошибка.",
+    "askHints": "Попросите подсказки, объяснения или помощь...",
+    "codeCheckResults": "Результаты проверки кода",
+    "checkWithAI": "Проверить с AI",
+    "checking": "Проверка...",
+    "evaluationPlaceholder": "Результаты оценки вашего кода появятся здесь"
+  },
+  "whatYouWillLearn": "Что вы изучите:",
+  "more": "+{{count}} ещё",
+  "noExamplesFound": "Примеры не найдены.",
+  "searchExamples": "Поиск примеров...",
+  "codeExamples": "Примеры кода",
+  "loadingChallenge": "Загрузка задачи...",
+  "searchChallenges": "Поиск задач..."
+}

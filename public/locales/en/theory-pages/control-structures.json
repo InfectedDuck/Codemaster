@@ -1,0 +1,197 @@
+{
+  "pageTitle": "Control Structures - Python Theory",
+  "header": {
+    "title": "Control Structures",
+    "subtitle": "Foundation Level \u2022 60 minutes \u2022 Master decision-making and repetition in Python"
+  },
+  "sidebar": {
+    "title": "Contents"
+  },
+  "sections": {
+    "introduction": {
+      "navTitle": "Introduction",
+      "title": "Introduction to Control Structures",
+      "paragraph1": "Control structures are the backbone of programming logic. They allow you to control the flow of your program, make decisions based on conditions, and repeat actions efficiently.",
+      "callout": "<strong>What you'll learn:</strong> Master if/elif/else statements for decision-making, for and while loops for repetition, loop control with break and continue, and how to combine these structures effectively.",
+      "typesTitle": "Types of Control Structures",
+      "types": {
+        "conditional": {
+          "title": "Conditional",
+          "description": "Make decisions with if, elif, and else statements"
+        },
+        "iterative": {
+          "title": "Iterative",
+          "description": "Repeat actions with for and while loops"
+        },
+        "controlFlow": {
+          "title": "Control Flow",
+          "description": "Modify loop behavior with break and continue"
+        }
+      },
+      "whyTitle": "Why Control Structures Matter",
+      "whyReasons": [
+        "Enable programs to make intelligent decisions",
+        "Automate repetitive tasks efficiently",
+        "Handle different scenarios and user inputs",
+        "Create dynamic and interactive applications"
+      ]
+    },
+    "ifStatements": {
+      "navTitle": "If Statements",
+      "title": "If Statements",
+      "paragraph1": "If statements allow your program to make decisions by executing different code blocks based on whether conditions are true or false.",
+      "structureTitle": "If Statement Structure",
+      "structureItems": [
+        "Starts with <code>if</code> keyword",
+        "Followed by a condition",
+        "Ends with a colon (:)",
+        "Indented code block follows"
+      ],
+      "operatorsTitle": "Logical Operators",
+      "operatorItems": [
+        "<code>and</code> - Both conditions must be true",
+        "<code>or</code> - At least one condition must be true",
+        "<code>not</code> - Reverses the condition",
+        "<code>in</code> - Checks membership"
+      ],
+      "notesTitle": "Important Notes",
+      "noteItems": [
+        "Python uses indentation to define code blocks (usually 4 spaces)",
+        "The <code>elif</code> keyword is short for \"else if\"",
+        "You can have multiple <code>elif</code> statements",
+        "The <code>else</code> clause is optional and catches all other cases"
+      ]
+    },
+    "forLoops": {
+      "navTitle": "For Loops",
+      "title": "For Loops",
+      "paragraph1": "For loops are used to iterate over sequences like lists, strings, or ranges. They're perfect when you know how many times you want to repeat something.",
+      "rangeStop": {
+        "title": "range(stop)",
+        "description": "Generates numbers from 0 to stop-1"
+      },
+      "rangeStartStop": {
+        "title": "range(start, stop)",
+        "description": "Generates numbers from start to stop-1"
+      },
+      "rangeStartStopStep": {
+        "title": "range(start, stop, step)",
+        "description": "Generates numbers with custom step"
+      },
+      "patternsTitle": "Common For Loop Patterns",
+      "patterns": {
+        "iteratingList": "Iterating over a list:",
+        "gettingIndex": "Getting index and value:",
+        "iteratingChars": "Iterating over characters:"
+      }
+    },
+    "whileLoops": {
+      "navTitle": "While Loops",
+      "title": "While Loops",
+      "paragraph1": "While loops continue executing as long as a condition remains true. They're useful when you don't know exactly how many iterations you need.",
+      "infiniteLoopsTitle": "Avoiding Infinite Loops",
+      "infiniteLoopsItems": [
+        "Always modify the condition variable inside the loop",
+        "Make sure the condition can eventually become false",
+        "Test your loop logic carefully",
+        "Use break statements when needed"
+      ],
+      "bestPracticesTitle": "While Loop Best Practices",
+      "bestPracticesItems": [
+        "Initialize variables before the loop",
+        "Keep the condition simple and clear",
+        "Update condition variables inside the loop",
+        "Consider using for loops when possible"
+      ],
+      "whenToUseTitle": "When to Use While Loops",
+      "whenToUseItems": [
+        "Input validation (keep asking until valid input)",
+        "Menu systems (keep showing menu until user quits)",
+        "Processing unknown amounts of data",
+        "Waiting for certain conditions to be met",
+        "Game loops that run until game over"
+      ]
+    },
+    "loopControl": {
+      "navTitle": "Loop Control",
+      "title": "Loop Control: Break and Continue",
+      "paragraph1": "Break and continue statements give you fine control over loop execution, allowing you to exit loops early or skip specific iterations.",
+      "breakTitle": "Break Statement",
+      "breakItems": [
+        "Immediately exits the current loop",
+        "Useful for early termination",
+        "Often used with if statements",
+        "Works in both for and while loops"
+      ],
+      "continueTitle": "Continue Statement",
+      "continueItems": [
+        "Skips the rest of the current iteration",
+        "Jumps to the next iteration",
+        "Useful for filtering or skipping items",
+        "Does not exit the loop completely"
+      ],
+      "useCasesTitle": "Common Use Cases",
+      "breakUseCases": "Search algorithms, input validation, early exit conditions",
+      "continueUseCases": "Data filtering, skipping invalid items, processing only certain elements"
+    },
+    "nestedStructures": {
+      "navTitle": "Nested Structures",
+      "title": "Nested Control Structures",
+      "paragraph1": "You can combine control structures by nesting them inside each other. This allows for complex logic and multi-dimensional data processing.",
+      "nestedIfTitle": "Nested If Statements",
+      "nestedIfItems": [
+        "Check multiple conditions in sequence",
+        "Create complex decision trees",
+        "Each level adds more specificity",
+        "Keep nesting reasonable (3-4 levels max)"
+      ],
+      "nestedLoopsTitle": "Nested Loops",
+      "nestedLoopsItems": [
+        "Process multi-dimensional data",
+        "Create patterns and grids",
+        "Each inner loop completes fully",
+        "Be careful with performance"
+      ],
+      "bestPracticesTitle": "Best Practices for Nesting",
+      "doTitle": "Do:",
+      "doItems": [
+        "Keep indentation consistent",
+        "Use meaningful variable names",
+        "Break complex logic into functions",
+        "Add comments for clarity"
+      ],
+      "avoidTitle": "Avoid:",
+      "avoidItems": [
+        "Too many nesting levels (over 4)",
+        "Inconsistent indentation",
+        "Complex conditions in nested statements",
+        "Unclear variable scoping"
+      ]
+    },
+    "practice": {
+      "navTitle": "Practice",
+      "title": "Practice Exercises",
+      "exercise1": {
+        "title": "Exercise 1: Grade Calculator",
+        "description": "Create a program that assigns letter grades based on numeric scores using if-elif-else statements."
+      },
+      "exercise2": {
+        "title": "Exercise 2: Number Patterns",
+        "description": "Use nested for loops to create number patterns and shapes."
+      },
+      "exercise3": {
+        "title": "Exercise 3: Number Guessing Game",
+        "description": "Build a number guessing game using while loops and control statements."
+      },
+      "exercise4": {
+        "title": "Exercise 4: Data Processing",
+        "description": "Process a list of numbers using loops and control statements."
+      },
+      "cta": {
+        "title": "Ready to Test Your Knowledge?",
+        "description": "Take our interactive quiz to see how well you've mastered control structures!",
+        "button": "Test My Knowledge"
+      }
+    }
+  }
+}

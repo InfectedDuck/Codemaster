@@ -1,0 +1,110 @@
+{
+  "pageTitle": "Coding Challenges",
+  "pageSubtitle": "Browse our collection of challenges to test and improve your Python skills.",
+  "challenges": {
+    "two-sum": {
+      "title": "Two Sum",
+      "description": "Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`."
+    },
+    "reverse-string": {
+      "title": "Reverse a String",
+      "description": "Write a function that reverses a string. The input string is given as an array of characters."
+    },
+    "fibonacci": {
+      "title": "Fibonacci Number",
+      "description": "The Fibonacci numbers, commonly denoted `F(n)`, form a sequence such that each number is the sum of the two preceding ones, starting from 0 and 1. Write a function to compute the nth Fibonacci number."
+    },
+    "palindrome": {
+      "title": "Valid Palindrome",
+      "description": "A phrase is a palindrome if it reads the same forward and backward. Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases."
+    },
+    "anagram": {
+      "title": "Valid Anagram",
+      "description": "Given two strings s and t, return true if t is an anagram of s, and false otherwise."
+    },
+    "max-subarray": {
+      "title": "Maximum Subarray",
+      "description": "Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum."
+    },
+    "merge-intervals": {
+      "title": "Merge Intervals",
+      "description": "Given an array of intervals where intervals[i] = [start, end], merge all overlapping intervals, and return an array of the non-overlapping intervals."
+    },
+    "climbing-stairs": {
+      "title": "Climbing Stairs",
+      "description": "You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?"
+    },
+    "binary-search": {
+      "title": "Binary Search",
+      "description": "Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, return its index. Otherwise, return -1."
+    },
+    "longest-substring": {
+      "title": "Longest Substring Without Repeating Characters",
+      "description": "Given a string s, find the length of the longest substring without repeating characters."
+    },
+    "group-anagrams": {
+      "title": "Group Anagrams",
+      "description": "Given an array of strings strs, group the anagrams together. You can return the answer in any order."
+    },
+    "valid-parentheses": {
+      "title": "Valid Parentheses",
+      "description": "Given a string s containing just the characters \"(\", \")\", \"{\", \"}\", \"[\" and \"]\", determine if the input string is valid."
+    },
+    "missing-number": {
+      "title": "Missing Number",
+      "description": "Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array."
+    },
+    "product-except-self": {
+      "title": "Product of Array Except Self",
+      "description": "Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i]."
+    },
+    "rotate-array": {
+      "title": "Rotate Array",
+      "description": "Given an array, rotate the array to the right by k steps, where k is non-negative."
+    },
+    "contains-duplicate": {
+      "title": "Contains Duplicate",
+      "description": "Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct."
+    },
+    "house-robber": {
+      "title": "House Robber",
+      "description": "You are a professional robber. Houses are arranged in a row, and you cannot rob two adjacent houses. Given an array representing the amount of money in each house, return the maximum amount you can rob."
+    },
+    "best-time-stock": {
+      "title": "Best Time to Buy and Sell Stock",
+      "description": "You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy and a single day to sell."
+    },
+    "coin-change": {
+      "title": "Coin Change",
+      "description": "You are given an integer array coins representing coins of different denominations and an integer amount. Return the fewest number of coins that you need to make up that amount."
+    },
+    "valid-sudoku": {
+      "title": "Valid Sudoku",
+      "description": "Determine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be validated according to the rules: each row, column, and 3x3 sub-box must contain unique digits 1-9."
+    },
+    "longest-palindrome": {
+      "title": "Longest Palindromic Substring",
+      "description": "Given a string s, return the longest palindromic substring in s."
+    },
+    "word-pattern": {
+      "title": "Word Pattern",
+      "description": "Given a pattern and a string s, find if s follows the same pattern. Here \"follow\" means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s."
+    },
+    "number-islands": {
+      "title": "Number of Islands",
+      "description": "Given an m x n 2D binary grid which represents a map of \"1\"s (land) and \"0\"s (water), return the number of islands."
+    },
+    "search-rotated-array": {
+      "title": "Search in Rotated Sorted Array",
+      "description": "You are given an integer array nums sorted in ascending order (with distinct values), and an integer target. Suppose that nums is rotated at some pivot. Search for target in this array."
+    },
+    "trapping-rainwater": {
+      "title": "Trapping Rain Water",
+      "description": "Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining."
+    },
+    "median-sorted-arrays": {
+      "title": "Median of Two Sorted Arrays",
+      "description": "Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays."
+    }
+  }
+}

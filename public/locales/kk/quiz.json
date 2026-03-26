@@ -1,0 +1,26 @@
+{
+  "title": "Python тест",
+  "question": "Сұрақ",
+  "of": "/",
+  "answered": "жауап берілді",
+  "previous": "Алдыңғы",
+  "next": "Келесі",
+  "submitTest": "Тестті тапсыру",
+  "results": {
+    "title": "Тест нәтижелері",
+    "score": "Балл",
+    "correct": "Дұрыс жауаптар",
+    "incorrect": "Қате жауаптар",
+    "review": "Жауаптарды қарау",
+    "retake": "Тестті қайта тапсыру",
+    "backToTheory": "Теорияға оралу",
+    "yourAnswer": "Сіздің жауабыңыз",
+    "correctAnswer": "Дұрыс жауап",
+    "explanation": "Түсіндірме"
+  },
+  "topicNotFound": "Тақырып табылмады",
+  "topicNotFoundDesc": "Сіз іздеген тест тақырыбы жоқ.",
+  "backToTopics": "Тақырыптарға оралу",
+  "startQuiz": "Тестті бастау",
+  "questionsCount": "сұрақ"
+}

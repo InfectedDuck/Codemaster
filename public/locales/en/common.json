@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Home",
+    "theory": "Theory",
+    "practice": "Practice",
+    "challenges": "Challenges",
+    "getStarted": "Get Started"
+  },
+  "footer": {
+    "tagline": "Master Python programming with interactive lessons and real-time feedback.",
+    "learning": "Learning",
+    "pythonBasics": "Python Basics",
+    "dataStructures": "Data Structures",
+    "oop": "OOP",
+    "advancedTopics": "Advanced Topics",
+    "practice": "Practice",
+    "codeChallenges": "Code Challenges",
+    "multipleChoice": "Multiple Choice",
+    "projects": "Projects",
+    "codeEditor": "Code Editor",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "community": "Community",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "copyright": "\u00a9 2025 CodeMaster by kametaytoktar. All rights reserved."
+  },
+  "difficulty": {
+    "all": "All",
+    "foundation": "Foundation",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "projects": "Projects",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "beginner": "Beginner"
+  },
+  "buttons": {
+    "startLearning": "Start Learning",
+    "testKnowledge": "Test Knowledge",
+    "previous": "Previous",
+    "next": "Next",
+    "submitTest": "Submit Test",
+    "tryEditor": "Try Editor",
+    "tryItNow": "Try it now"
+  },
+  "dashboard": {
+    "title": "Your Learning Dashboard",
+    "pythonBasics": "Python Basics",
+    "dataStructures": "Data Structures",
+    "oopConcepts": "OOP Concepts",
+    "lessonsCompleted": "Lessons Completed",
+    "challengesSolved": "Challenges Solved",
+    "daysStreak": "Days Streak"
+  },
+  "interpreter": {
+    "notReady": "Python interpreter is not ready yet. Please wait...",
+    "loading": "Loading...",
+    "loadingInterpreter": "Loading Python interpreter...",
+    "running": "Running...",
+    "run": "Run (Ctrl+Enter)",
+    "clear": "Clear",
+    "output": "Output",
+    "outputPlaceholder": "Output will appear here...",
+    "noOutput": "[No output]",
+    "codePlaceholder": "# Write your Python code here...\n# Press Ctrl+Enter to run\n\nprint('Hello, World!')"
+  },
+  "ai": {
+    "title": "AI Assistant",
+    "description": "Stuck? Ask for a hint, an explanation, or a code improvement suggestion.",
+    "placeholder": "e.g., Explain this code line by line...",
+    "askButton": "Ask AI",
+    "thinking": "Thinking...",
+    "response": "AI Response:",
+    "error": "Sorry, something went wrong.",
+    "askHints": "Ask for hints, explanations, or help...",
+    "codeCheckResults": "Code Check Results",
+    "checkWithAI": "Check with AI",
+    "checking": "Checking...",
+    "evaluationPlaceholder": "Your code evaluation results will appear here"
+  },
+  "whatYouWillLearn": "What you'll learn:",
+  "more": "+{{count}} more",
+  "noExamplesFound": "No examples found.",
+  "searchExamples": "Search examples...",
+  "codeExamples": "Code Examples",
+  "loadingChallenge": "Loading challenge...",
+  "searchChallenges": "Search challenges..."
+}

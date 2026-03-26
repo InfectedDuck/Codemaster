@@ -1,0 +1,214 @@
+{
+  "questions": {
+    "vdt_001": {
+      "question": "Which of the following is a valid variable name in Python?",
+      "options": ["2variable", "my-variable", "my_variable", "my variable"],
+      "explanation": "Variable names can contain letters, numbers, and underscores, but cannot start with a number or contain spaces/hyphens."
+    },
+    "vdt_002": {
+      "question": "What is the output of: print(type(3.14))?",
+      "options": ["<class 'int'>", "<class 'float'>", "<class 'str'>", "<class 'number'>"],
+      "explanation": "3.14 is a floating-point number, so its type is float."
+    },
+    "vdt_003": {
+      "question": "What will be the result of: 10 // 3?",
+      "options": ["3.33", "3", "4", "3.0"],
+      "explanation": "The // operator performs floor division, returning only the integer part of the division."
+    },
+    "vdt_004": {
+      "question": "Which of the following evaluates to False in Python?",
+      "options": ["bool(1)", "bool(\"hello\")", "bool([])", "bool([1, 2, 3])"],
+      "explanation": "Empty collections like empty lists [] evaluate to False in Python."
+    },
+    "vdt_005": {
+      "question": "What does the expression 5 ** 2 evaluate to?",
+      "options": ["10", "25", "7", "52"],
+      "explanation": "The ** operator is exponentiation, so 5 ** 2 equals 5 squared, which is 25."
+    },
+    "vdt_006": {
+      "question": "Which statement correctly assigns multiple variables?",
+      "options": ["a, b, c = 1, 2, 3", "a = b = c = 1, 2, 3", "a; b; c = 1; 2; 3", "let a, b, c = 1, 2, 3"],
+      "explanation": "Python supports tuple unpacking for multiple assignment using commas."
+    },
+    "vdt_007": {
+      "question": "What is the result of: \"Hello\" + \"World\"?",
+      "options": ["HelloWorld", "Hello World", "Hello+World", "Error"],
+      "explanation": "String concatenation with + joins strings directly without adding spaces."
+    },
+    "vdt_008": {
+      "question": "What will print(15 % 4) output?",
+      "options": ["3", "3.75", "4", "0"],
+      "explanation": "The % operator returns the remainder of division. 15 divided by 4 is 3 remainder 3."
+    },
+    "vdt_009": {
+      "question": "Which of the following is a valid Python data type for whole numbers?",
+      "options": ["integer", "int", "number", "whole"],
+      "explanation": "The int data type is used for whole numbers in Python."
+    },
+    "vdt_010": {
+      "question": "What is the output of: bool(0.0)?",
+      "options": ["True", "False", "0", "Error"],
+      "explanation": "The float 0.0 is considered falsy in Python, so bool(0.0) returns False."
+    },
+    "vdt_011": {
+      "question": "What does \"Python\".upper() return?",
+      "options": ["python", "PYTHON", "Python", "pYTHON"],
+      "explanation": "The upper() method converts all characters in the string to uppercase."
+    },
+    "vdt_012": {
+      "question": "Which operator checks for equality in Python?",
+      "options": ["=", "==", "===", "eq"],
+      "explanation": "The == operator checks for equality, while = is for assignment."
+    },
+    "vdt_013": {
+      "question": "What is the value of x after: x = 5; x += 3?",
+      "options": ["5", "3", "8", "53"],
+      "explanation": "The += operator adds the right value to the left variable. So x becomes 5 + 3 = 8."
+    },
+    "vdt_014": {
+      "question": "What does len(\"Hello\") return?",
+      "options": ["4", "5", "6", "Error"],
+      "explanation": "The len() function counts the number of characters in a string. \"Hello\" has 5 characters."
+    },
+    "vdt_015": {
+      "question": "Which is the correct way to check if a variable x is not equal to 10?",
+      "options": ["x !== 10", "x != 10", "x <> 10", "not x == 10"],
+      "explanation": "The != operator is used for \"not equal to\" comparisons in Python."
+    },
+    "vdt_016": {
+      "question": "What is the result of: True and False?",
+      "options": ["True", "False", "1", "0"],
+      "explanation": "The and operator returns True only when both operands are True."
+    },
+    "vdt_017": {
+      "question": "What is the output of: print(type(\"123\"))?",
+      "options": ["<class 'int'>", "<class 'str'>", "<class 'number'>", "<class 'text'>"],
+      "explanation": "Even though \"123\" looks like a number, the quotes make it a string."
+    },
+    "vdt_018": {
+      "question": "Which will cause a NameError when y is not defined?",
+      "options": ["x = 5", "print(x)", "print(y)", "y = x + 1"],
+      "explanation": "Trying to use variable y before it's defined will cause a NameError."
+    },
+    "vdt_019": {
+      "question": "What does \"  hello  \".strip() return?",
+      "options": ["\"hello\"", "\"  hello  \"", "hello", "\" hello \""],
+      "explanation": "The strip() method removes leading and trailing whitespace."
+    },
+    "vdt_020": {
+      "question": "What is the output of: print(10 > 5 and 3 < 2)?",
+      "options": ["True", "False", "Error", "1"],
+      "explanation": "Even though 10 > 5 is True, 3 < 2 is False, so the and operation returns False."
+    },
+    "vdt_021": {
+      "question": "What is the result of: 17 // 5?",
+      "options": ["3.4", "3", "4", "2"],
+      "explanation": "Floor division // returns the quotient without the remainder."
+    },
+    "vdt_022": {
+      "question": "What does the expression not True or False evaluate to?",
+      "options": ["True", "False", "Error", "None"],
+      "explanation": "not True is False, and False or False is False."
+    },
+    "vdt_023": {
+      "question": "What is the result of: 5 < 3 or 2 == 2?",
+      "options": ["True", "False", "Error", "None"],
+      "explanation": "Although 5 < 3 is False, 2 == 2 is True, so the or operation returns True."
+    },
+    "vdt_024": {
+      "question": "What does bool(None) return?",
+      "options": ["True", "False", "None", "Error"],
+      "explanation": "None is considered falsy in Python, so bool(None) returns False."
+    },
+    "vdt_025": {
+      "question": "Which comparison operator checks if two variables point to the same object?",
+      "options": ["==", "!=", "is", "in"],
+      "explanation": "The \"is\" operator checks object identity, not just equality."
+    },
+    "vdt_026": {
+      "question": "What will this f-string output? name=\"Bob\"; print(f\"Hello {name}!\")",
+      "options": ["Hello Bob!", "Hello name!", "Hello {name}!", "Error"],
+      "explanation": "F-strings substitute variables within curly braces into the string."
+    },
+    "vdt_027": {
+      "question": "What is the result of: 6 / 2?",
+      "options": ["3", "3.0", "2", "6"],
+      "explanation": "The / operator always returns a float in Python 3, even if the result is a whole number."
+    },
+    "vdt_028": {
+      "question": "Which of these is considered \"truthy\" in Python?",
+      "options": ["0", "\"\"", "[]", "\"hello\""],
+      "explanation": "Non-empty strings are truthy. Empty values like 0, \"\", and [] are falsy."
+    },
+    "vdt_029": {
+      "question": "What is the output of: print(3 == 3.0)?",
+      "options": ["True", "False", "Error", "3.0"],
+      "explanation": "Python considers 3 and 3.0 equal in value, even though they are different types."
+    },
+    "vdt_030": {
+      "question": "What does first_name + \" \" + last_name accomplish?",
+      "options": ["Adds the strings mathematically", "Concatenates the strings with a space", "Creates a list", "Causes an error"],
+      "explanation": "String concatenation using + joins strings together in the order specified."
+    },
+    "vdt_031": {
+      "question": "What will x -= 2 do if x = 10?",
+      "options": ["x becomes 8", "x becomes 12", "x becomes -2", "Error"],
+      "explanation": "The -= operator subtracts the right value from the left variable. 10 - 2 = 8."
+    },
+    "vdt_032": {
+      "question": "Which string formatting method uses curly braces with f before the quotes?",
+      "options": [".format()", "% formatting", "f-strings", "concatenation"],
+      "explanation": "F-strings use the f prefix and curly braces to embed expressions."
+    },
+    "vdt_033": {
+      "question": "What does bool(\"\") return?",
+      "options": ["True", "False", "\"\"", "Error"],
+      "explanation": "Empty strings are falsy in Python, so bool(\"\") returns False."
+    },
+    "vdt_034": {
+      "question": "What is the result of: 8 % 3?",
+      "options": ["2", "2.67", "3", "5"],
+      "explanation": "The % operator returns the remainder. 8 divided by 3 is 2 remainder 2."
+    },
+    "vdt_035": {
+      "question": "What does \"apple\" in fruits do if fruits = [\"apple\", \"banana\"]?",
+      "options": ["Returns True", "Returns False", "Returns \"apple\"", "Causes error"],
+      "explanation": "The \"in\" operator checks membership and returns True if \"apple\" is in the list."
+    },
+    "vdt_036": {
+      "question": "What is the output of: print(not False)?",
+      "options": ["True", "False", "not False", "Error"],
+      "explanation": "The not operator reverses the boolean value. not False is True."
+    },
+    "vdt_037": {
+      "question": "Which method removes whitespace from both ends of a string?",
+      "options": ["remove()", "strip()", "clean()", "trim()"],
+      "explanation": "The strip() method removes leading and trailing whitespace characters."
+    },
+    "vdt_038": {
+      "question": "What does x *= 3 do if x = 4?",
+      "options": ["x becomes 12", "x becomes 7", "x becomes 1", "Error"],
+      "explanation": "The *= operator multiplies the variable by the right value. 4 * 3 = 12."
+    },
+    "vdt_039": {
+      "question": "What is the result of: True or False?",
+      "options": ["True", "False", "1", "0"],
+      "explanation": "The or operator returns True if at least one operand is True."
+    },
+    "vdt_040": {
+      "question": "What does \"HELLO\".lower() return?",
+      "options": ["HELLO", "hello", "Hello", "hELLO"],
+      "explanation": "The lower() method converts all characters to lowercase."
+    },
+    "vdt_041": {
+      "question": "What will this code output? text = \"Python\"; print(len(text))",
+      "options": ["5", "6", "7", "Error"],
+      "explanation": "The len() function counts characters. \"Python\" has 6 characters."
+    },
+    "vdt_042": {
+      "question": "What is the result of: 2 ** 4?",
+      "options": ["6", "8", "16", "24"],
+      "explanation": "The ** operator is exponentiation. 2 ** 4 = 2 to the power of 4 = 16."
+    }
+  }
+}

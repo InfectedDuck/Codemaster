@@ -1,0 +1,26 @@
+{
+  "title": "Тест по Python",
+  "question": "Вопрос",
+  "of": "из",
+  "answered": "отвечено",
+  "previous": "Назад",
+  "next": "Далее",
+  "submitTest": "Отправить тест",
+  "results": {
+    "title": "Результаты теста",
+    "score": "Оценка",
+    "correct": "Правильных ответов",
+    "incorrect": "Неправильных ответов",
+    "review": "Просмотр ответов",
+    "retake": "Пройти тест заново",
+    "backToTheory": "Вернуться к теории",
+    "yourAnswer": "Ваш ответ",
+    "correctAnswer": "Правильный ответ",
+    "explanation": "Объяснение"
+  },
+  "topicNotFound": "Тема не найдена",
+  "topicNotFoundDesc": "Тема теста, которую вы ищете, не существует.",
+  "backToTopics": "Вернуться к темам",
+  "startQuiz": "Начать тест",
+  "questionsCount": "вопросов"
+}

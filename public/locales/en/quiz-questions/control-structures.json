@@ -1,0 +1,114 @@
+{
+  "questions": {
+    "cs_001": {
+      "question": "What is the correct syntax for an if statement in Python?",
+      "options": ["if x = 5:", "if (x == 5):", "if x == 5:", "if x == 5 then:"],
+      "explanation": "Python if statements use a colon after the condition and don't require parentheses."
+    },
+    "cs_002": {
+      "question": "What will this code print?\n\nfor i in range(3):\n    print(i)",
+      "options": ["1 2 3", "0 1 2", "1 2", "0 1 2 3"],
+      "explanation": "range(3) generates numbers from 0 to 2 (3 is excluded)."
+    },
+    "cs_003": {
+      "question": "Which keyword is used to exit a loop prematurely?",
+      "options": ["exit", "break", "stop", "end"],
+      "explanation": "The break keyword immediately exits the current loop."
+    },
+    "cs_004": {
+      "question": "What does the continue statement do in a loop?",
+      "options": ["Exits the loop", "Skips to the next iteration", "Restarts the loop", "Does nothing"],
+      "explanation": "continue skips the rest of the current iteration and moves to the next one."
+    },
+    "cs_005": {
+      "question": "What will this while loop do?\n\nx = 0\nwhile x < 5:\n    print(x)",
+      "options": ["Print 0 to 4", "Print 0 to 5", "Run forever", "Print nothing"],
+      "explanation": "x is never incremented, so the condition x < 5 remains true forever."
+    },
+    "cs_006": {
+      "question": "What is the output of this code?\n\nfor i in range(2, 8, 2):\n    print(i, end=\" \")",
+      "options": ["2 4 6", "2 4 6 8", "0 2 4 6", "2 3 4 5 6 7"],
+      "explanation": "range(2, 8, 2) starts at 2, stops before 8, with step 2: 2, 4, 6."
+    },
+    "cs_007": {
+      "question": "What is the purpose of the elif statement?",
+      "options": ["To end an if statement", "To check additional conditions", "To repeat code", "To exit a program"],
+      "explanation": "elif (else if) allows you to check additional conditions when the first if condition is false."
+    },
+    "cs_008": {
+      "question": "What will this code output?\n\nage = 16\nif age >= 18:\n    print(\"Adult\")\nelse:\n    print(\"Minor\")",
+      "options": ["Adult", "Minor", "Error", "Nothing"],
+      "explanation": "Since age (16) is less than 18, the else block executes, printing \"Minor\"."
+    },
+    "cs_009": {
+      "question": "What does range(5) generate?",
+      "options": ["1, 2, 3, 4, 5", "0, 1, 2, 3, 4", "0, 1, 2, 3, 4, 5", "1, 2, 3, 4"],
+      "explanation": "range(5) generates numbers from 0 up to (but not including) 5."
+    },
+    "cs_010": {
+      "question": "In a while loop, what happens if the condition never becomes false?",
+      "options": ["The loop stops automatically", "The loop becomes a for loop", "An infinite loop occurs", "Python shows an error"],
+      "explanation": "If the condition never becomes false, the loop will continue indefinitely, creating an infinite loop."
+    },
+    "cs_011": {
+      "question": "What is the correct way to use logical operators in an if statement?",
+      "options": ["if x = 5 && y = 10:", "if x == 5 and y == 10:", "if (x == 5) & (y == 10):", "if x == 5, y == 10:"],
+      "explanation": "Python uses \"and\" for logical AND operations, and conditions are separated by \"and\"."
+    },
+    "cs_012": {
+      "question": "What will this code print?\n\nfor i in range(5):\n    if i == 3:\n        break\n    print(i)",
+      "options": ["0 1 2 3", "0 1 2", "1 2 3", "0 1 2 3 4"],
+      "explanation": "The loop prints 0, 1, 2, then breaks when i equals 3, so 3 is not printed."
+    },
+    "cs_013": {
+      "question": "What does range(1, 6) generate?",
+      "options": ["1, 2, 3, 4, 5", "0, 1, 2, 3, 4, 5", "1, 2, 3, 4, 5, 6", "2, 3, 4, 5"],
+      "explanation": "range(1, 6) starts at 1 and goes up to (but not including) 6."
+    },
+    "cs_014": {
+      "question": "What will this code output?\n\nfor i in range(5):\n    if i % 2 == 0:\n        continue\n    print(i)",
+      "options": ["0 2 4", "1 3", "0 1 2 3 4", "1 2 3 4"],
+      "explanation": "continue skips even numbers (i % 2 == 0), so only odd numbers 1 and 3 are printed."
+    },
+    "cs_015": {
+      "question": "Which statement correctly checks if a variable x is between 10 and 20?",
+      "options": ["if 10 < x < 20:", "if x > 10 and x < 20:", "if (x > 10) and (x < 20):", "All of the above"],
+      "explanation": "All three forms are valid in Python. Python supports chained comparisons and explicit and operations."
+    },
+    "cs_016": {
+      "question": "What will this while loop do?\n\ncount = 0\nwhile count < 3:\n    print(count)\n    count += 1",
+      "options": ["Print 0 1 2", "Print 1 2 3", "Run forever", "Print 0 1 2 3"],
+      "explanation": "The loop starts at 0, prints and increments until count reaches 3, printing 0, 1, 2."
+    },
+    "cs_017": {
+      "question": "What does the \"in\" operator check in an if statement?",
+      "options": ["Equality", "Membership", "Identity", "Data type"],
+      "explanation": "The \"in\" operator checks if a value is a member of a sequence (like a list or string)."
+    },
+    "cs_018": {
+      "question": "What will this code output?\n\nfor char in \"Hi\":\n    print(char)",
+      "options": ["Hi", "H i", "H\\ni", "Error"],
+      "explanation": "For loops can iterate over strings, printing each character on a separate line: H then i."
+    },
+    "cs_019": {
+      "question": "What is the output of range(10, 0, -2)?",
+      "options": ["10, 8, 6, 4, 2", "10, 8, 6, 4, 2, 0", "8, 6, 4, 2", "10, 9, 8, 7, 6, 5, 4, 3, 2, 1"],
+      "explanation": "range(10, 0, -2) starts at 10, goes down to (but not including) 0, with step -2."
+    },
+    "cs_020": {
+      "question": "In nested if statements, when is the inner if executed?",
+      "options": ["Always", "Never", "Only when the outer if is true", "Only when the outer if is false"],
+      "explanation": "The inner if statement is only checked and executed when the outer if condition is true."
+    },
+    "cs_021": {
+      "question": "What will this code print?\n\nfor i in range(3):\n    for j in range(2):\n        print(i, j)",
+      "options": ["0 0, 0 1, 1 0, 1 1, 2 0, 2 1", "0 1 2, 0 1", "3 times 2", "Error"],
+      "explanation": "Nested loops: outer loop runs 3 times (i=0,1,2), inner loop runs 2 times for each (j=0,1)."
+    },
+    "cs_022": {
+      "question": "What does the \"not\" operator do in conditions?",
+      "options": ["Adds negation", "Reverses the boolean value", "Checks inequality", "Stops execution"],
+      "explanation": "The \"not\" operator reverses the boolean value: not True becomes False, not False becomes True."
+    }
+  }
+}

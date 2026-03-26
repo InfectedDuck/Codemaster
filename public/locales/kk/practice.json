@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Python практика алаңы",
+  "pageSubtitle": "Практикалық код тапсырмалары арқылы дағдыларыңызды шыңдаңыз.",
+  "codeExamples": {
+    "hello-world": {
+      "title": "Hello World",
+      "description": "Классикалық алғашқы бағдарламадан бастаңыз"
+    },
+    "variables": {
+      "title": "Айнымалылар және деректер типтері",
+      "description": "Python-дағы әртүрлі деректер типтері туралы үйреніңіз"
+    },
+    "lists": {
+      "title": "Тізімдермен жұмыс",
+      "description": "Python тізімдері мен олардың әдістерін зерттеңіз"
+    },
+    "functions": {
+      "title": "Функциялар және параметрлер",
+      "description": "Функциялар арқылы қайта қолданылатын код жасаңыз"
+    },
+    "loops": {
+      "title": "Циклдер және итерация",
+      "description": "for және while циклдерін меңгеріңіз"
+    },
+    "dictionaries": {
+      "title": "Сөздіктер",
+      "description": "Кілт-мән жұптарымен жұмыс істеңіз"
+    },
+    "list-comprehension": {
+      "title": "Тізім түсініктемелері",
+      "description": "Тізімдерді Python стилінде жасаңыз"
+    },
+    "file-handling": {
+      "title": "Файл операциялары",
+      "description": "Python-да файлдарды оқу және жазу"
+    },
+    "error-handling": {
+      "title": "Қателерді өңдеу",
+      "description": "try-except арқылы қателерді дұрыс өңдеңіз"
+    },
+    "classes-objects": {
+      "title": "Кластар және объектілер (OOP)",
+      "description": "Объектіге бағытталған бағдарламалауды түсініңіз"
+    },
+    "api-request": {
+      "title": "API сұрауын модельдеу",
+      "description": "Веб API-дан деректерді алуды модельдеңіз"
+    }
+  },
+  "categories": {
+    "all": "Барлығы",
+    "basics": "Негіздер",
+    "dataStructures": "Деректер құрылымдары",
+    "functions": "Функциялар",
+    "controlFlow": "Басқару ағыны",
+    "advanced": "Жоғары деңгей",
+    "fileIO": "Файл I/O",
+    "errorHandling": "Қателерді өңдеу",
+    "oop": "OOP",
+    "web": "Веб"
+  }
+}

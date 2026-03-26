@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Басты бет",
+    "theory": "Теория",
+    "practice": "Практика",
+    "challenges": "Тапсырмалар",
+    "getStarted": "Бастау"
+  },
+  "footer": {
+    "tagline": "Интерактивті сабақтар мен нақты уақыттағы кері байланыс арқылы Python бағдарламалауды меңгеріңіз.",
+    "learning": "Оқу",
+    "pythonBasics": "Python негіздері",
+    "dataStructures": "Деректер құрылымдары",
+    "oop": "OOP",
+    "advancedTopics": "Жоғары деңгейлі тақырыптар",
+    "practice": "Практика",
+    "codeChallenges": "Код тапсырмалары",
+    "multipleChoice": "Тест сұрақтары",
+    "projects": "Жобалар",
+    "codeEditor": "Код редакторы",
+    "support": "Қолдау",
+    "helpCenter": "Анықтама орталығы",
+    "community": "Қауымдастық",
+    "contactUs": "Бізбен байланыс",
+    "privacyPolicy": "Құпиялылық саясаты",
+    "copyright": "\u00a9 2025 CodeMaster by kametaytoktar. Барлық құқықтар қорғалған."
+  },
+  "difficulty": {
+    "all": "Барлығы",
+    "foundation": "Негіздер",
+    "intermediate": "Орта деңгей",
+    "advanced": "Жоғары деңгей",
+    "projects": "Жобалар",
+    "easy": "Жеңіл",
+    "medium": "Орташа",
+    "hard": "Қиын",
+    "beginner": "Бастаушы"
+  },
+  "buttons": {
+    "startLearning": "Оқуды бастау",
+    "testKnowledge": "Білімді тексеру",
+    "previous": "Алдыңғы",
+    "next": "Келесі",
+    "submitTest": "Тестті тапсыру",
+    "tryEditor": "Редакторды қолданып көру",
+    "tryItNow": "Қазір қолданып көру"
+  },
+  "dashboard": {
+    "title": "Сіздің оқу тақтаңыз",
+    "pythonBasics": "Python негіздері",
+    "dataStructures": "Деректер құрылымдары",
+    "oopConcepts": "OOP тұжырымдамалары",
+    "lessonsCompleted": "Аяқталған сабақтар",
+    "challengesSolved": "Шешілген тапсырмалар",
+    "daysStreak": "Күндік серия"
+  },
+  "interpreter": {
+    "notReady": "Python интерпретаторы әлі дайын емес. Күте тұрыңыз...",
+    "loading": "Жүктелуде...",
+    "loadingInterpreter": "Python интерпретаторы жүктелуде...",
+    "running": "Орындалуда...",
+    "run": "Іске қосу (Ctrl+Enter)",
+    "clear": "Тазалау",
+    "output": "Нәтиже",
+    "outputPlaceholder": "Нәтиже осында көрсетіледі...",
+    "noOutput": "[Нәтиже жоқ]",
+    "codePlaceholder": "# Python кодыңызды осында жазыңыз...\n# Іске қосу үшін Ctrl+Enter басыңыз\n\nprint('Сәлем, Әлем!')"
+  },
+  "ai": {
+    "title": "AI көмекші",
+    "description": "Тұрып қалдыңыз ба? Кеңес, түсіндірме немесе кодты жақсарту ұсынысын сұраңыз.",
+    "placeholder": "мыс., Бұл кодты жол бойынша түсіндіріңіз...",
+    "askButton": "AI-дан сұрау",
+    "thinking": "Ойлануда...",
+    "response": "AI жауабы:",
+    "error": "Кешіріңіз, бірдеңе дұрыс болмады.",
+    "askHints": "Кеңестер, түсіндірмелер немесе көмек сұраңыз...",
+    "codeCheckResults": "Код тексерісінің нәтижелері",
+    "checkWithAI": "AI арқылы тексеру",
+    "checking": "Тексерілуде...",
+    "evaluationPlaceholder": "Кодыңыздың бағалау нәтижелері осында көрсетіледі"
+  },
+  "whatYouWillLearn": "Не үйренесіз:",
+  "more": "+{{count}} тағы",
+  "noExamplesFound": "Мысалдар табылмады.",
+  "searchExamples": "Мысалдарды іздеу...",
+  "codeExamples": "Код мысалдары",
+  "loadingChallenge": "Тапсырма жүктелуде...",
+  "searchChallenges": "Тапсырмаларды іздеу..."
+}

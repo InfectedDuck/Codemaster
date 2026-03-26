@@ -1,0 +1,62 @@
+{
+  "pageTitle": "Арена практики Python",
+  "pageSubtitle": "Оттачивайте свои навыки с помощью практических задач по программированию.",
+  "codeExamples": {
+    "hello-world": {
+      "title": "Hello World",
+      "description": "Начните с классической первой программы"
+    },
+    "variables": {
+      "title": "Переменные и типы данных",
+      "description": "Узнайте о различных типах данных в Python"
+    },
+    "lists": {
+      "title": "Работа со списками",
+      "description": "Изучите списки Python и их методы"
+    },
+    "functions": {
+      "title": "Функции и параметры",
+      "description": "Создавайте многоразовый код с помощью функций"
+    },
+    "loops": {
+      "title": "Циклы и итерации",
+      "description": "Освойте циклы for и while"
+    },
+    "dictionaries": {
+      "title": "Словари",
+      "description": "Работайте с парами ключ-значение"
+    },
+    "list-comprehension": {
+      "title": "Генераторы списков",
+      "description": "Создавайте списки более питоническим способом"
+    },
+    "file-handling": {
+      "title": "Операции с файлами",
+      "description": "Чтение и запись файлов в Python"
+    },
+    "error-handling": {
+      "title": "Обработка ошибок",
+      "description": "Корректная обработка ошибок с помощью try-except"
+    },
+    "classes-objects": {
+      "title": "Классы и объекты (ООП)",
+      "description": "Разберитесь в объектно-ориентированном программировании"
+    },
+    "api-request": {
+      "title": "Симуляция API-запроса",
+      "description": "Симуляция получения данных из веб-API"
+    }
+  },
+  "categories": {
+    "all": "Все",
+    "basics": "Основы",
+    "dataStructures": "Структуры данных",
+    "functions": "Функции",
+    "controlFlow": "Поток управления",
+    "advanced": "Продвинутый",
+    "fileIO": "Файловый ввод/вывод",
+    "errorHandling": "Обработка ошибок",
+    "oop": "ООП",
+    "web": "Веб"
+  }
+}

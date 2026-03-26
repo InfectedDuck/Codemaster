@@ -1,0 +1,100 @@
+{
+  "pageTitle": "Python Theory - Learn Programming Concepts",
+  "heroTitle": "Python Theory",
+  "heroSubtitle": "Master the Concepts",
+  "heroDescription": "Comprehensive lessons covering Python fundamentals, advanced concepts, and real-world projects",
+  "topics": {
+    "variables-datatypes": {
+      "title": "Variables, Data Types & Operators",
+      "description": "Learn the fundamentals of Python programming including how to store data in variables, work with different data types, and perform operations.",
+      "concepts": ["Variables & Assignment", "Numbers & Strings", "Booleans", "Arithmetic Operators", "Comparison Operators"]
+    },
+    "control-structures": {
+      "title": "Control Structures",
+      "description": "Master decision-making and repetition in Python with if/else statements, for loops, while loops, and conditional logic.",
+      "concepts": ["If/Elif/Else", "For Loops", "While Loops", "Break & Continue", "Nested Loops"]
+    },
+    "functions": {
+      "title": "Functions & Basic Error Handling",
+      "description": "Create reusable code with functions, understand parameters and return values, and handle errors gracefully.",
+      "concepts": ["Function Definition", "Parameters & Arguments", "Return Values", "Try/Except", "Function Scope"]
+    },
+    "string-manipulation": {
+      "title": "String Manipulation & Formatting",
+      "description": "Work with text data effectively using string methods, formatting techniques, and text processing operations.",
+      "concepts": ["String Methods", "String Formatting", "Regular Expressions", "Text Processing", "Input/Output"]
+    },
+    "data-structures": {
+      "title": "Data Structures",
+      "description": "Explore Python's built-in data structures: lists, dictionaries, sets, and tuples for efficient data organization.",
+      "concepts": ["Lists & List Methods", "Dictionaries", "Sets & Tuples", "List Comprehensions", "Nested Structures"]
+    },
+    "oop": {
+      "title": "Object-Oriented Programming",
+      "description": "Learn to create classes and objects, understand inheritance, encapsulation, and polymorphism in Python.",
+      "concepts": ["Classes & Objects", "Methods & Attributes", "Inheritance", "Encapsulation", "Polymorphism"]
+    },
+    "file-handling": {
+      "title": "File Handling & I/O Operations",
+      "description": "Read from and write to files, work with different file formats, and handle file system operations.",
+      "concepts": ["File Reading/Writing", "CSV & JSON Files", "File Paths", "Context Managers", "Binary Files"]
+    },
+    "modules": {
+      "title": "Modules & Package Management",
+      "description": "Organize code with modules, import external libraries, and manage dependencies with pip.",
+      "concepts": ["Import Statements", "Creating Modules", "Packages", "Pip & Virtual Environments", "Standard Library"]
+    },
+    "api-integration": {
+      "title": "API Integration & Web Requests",
+      "description": "Connect to web APIs, make HTTP requests, handle JSON data, and integrate external services.",
+      "concepts": ["HTTP Methods", "Requests Library", "JSON Handling", "Authentication", "Error Handling"]
+    },
+    "database-operations": {
+      "title": "Database Operations & SQL",
+      "description": "Work with databases using Python, execute SQL queries, and manage data persistence.",
+      "concepts": ["SQLite & Python", "SQL Queries", "Database Connections", "ORM Basics", "Data Migration"]
+    },
+    "decorators": {
+      "title": "Decorators & Context Managers",
+      "description": "Master advanced Python features like decorators for code enhancement and context managers for resource handling.",
+      "concepts": ["Function Decorators", "Class Decorators", "Context Managers", "With Statements", "Advanced Patterns"]
+    },
+    "testing-debugging": {
+      "title": "Testing & Debugging Techniques",
+      "description": "Write reliable code with unit tests, debug effectively, and ensure code quality.",
+      "concepts": ["Unit Testing", "Debugging Tools", "Test Coverage", "Mocking", "Code Quality"]
+    },
+    "web-scraping": {
+      "title": "Web Scraping Application",
+      "description": "Build a complete web scraping application to extract data from websites using BeautifulSoup and requests.",
+      "concepts": ["BeautifulSoup", "Web Parsing", "Data Extraction", "Rate Limiting", "Data Storage"]
+    },
+    "data-analysis": {
+      "title": "Data Analysis Dashboard",
+      "description": "Create an interactive data analysis dashboard using pandas, matplotlib, and other data science libraries.",
+      "concepts": ["Pandas", "Data Visualization", "Statistical Analysis", "Interactive Plots", "Dashboard Creation"]
+    },
+    "rest-api": {
+      "title": "REST API Development",
+      "description": "Develop a full-featured REST API with Flask or FastAPI, including authentication and database integration.",
+      "concepts": ["Flask/FastAPI", "RESTful Design", "Authentication", "Database Integration", "API Documentation"]
+    },
+    "machine-learning": {
+      "title": "Machine Learning Project",
+      "description": "Build a machine learning model from data preprocessing to deployment using scikit-learn.",
+      "concepts": ["Data Preprocessing", "Model Training", "Feature Engineering", "Model Evaluation", "Deployment"]
+    }
+  },
+  "learningJourney": {
+    "title": "Your Learning Journey",
+    "subtitle": "Follow our structured path from beginner to expert, with hands-on projects to solidify your skills",
+    "foundation": "Foundation",
+    "foundationDesc": "Master the basics of Python programming",
+    "intermediate": "Intermediate",
+    "intermediateDesc": "Explore data structures and OOP concepts",
+    "advanced": "Advanced",
+    "advancedDesc": "Dive into APIs, databases, and testing",
+    "projects": "Projects",
+    "projectsDesc": "Build real-world applications"
+  }
+}

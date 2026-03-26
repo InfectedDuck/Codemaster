@@ -1,0 +1,172 @@
+{
+  "pageTitle": "Functions & Basic Error Handling - Python Theory",
+  "header": {
+    "title": "Functions & Basic Error Handling",
+    "subtitle": "Foundation Level • 50 minutes • Create reusable code and handle errors gracefully"
+  },
+  "sidebar": {
+    "title": "Contents"
+  },
+  "sections": {
+    "introduction": {
+      "navTitle": "Introduction",
+      "title": "Introduction to Functions",
+      "paragraph1": "Functions are reusable blocks of code that perform specific tasks. They help organize code, reduce repetition, and make programs more modular and maintainable.",
+      "callout": "<strong>What you'll learn:</strong> How to define and call functions, work with parameters and return values, understand variable scope, and handle errors gracefully with try-except blocks.",
+      "whyTitle": "Why Functions Matter",
+      "cards": {
+        "reusability": {
+          "title": "Code Reusability",
+          "description": "Write once, use many times. Functions eliminate code duplication."
+        },
+        "organization": {
+          "title": "Organization",
+          "description": "Break complex problems into smaller, manageable pieces."
+        },
+        "testing": {
+          "title": "Testing",
+          "description": "Functions can be tested independently, making debugging easier."
+        },
+        "collaboration": {
+          "title": "Collaboration",
+          "description": "Team members can work on different functions simultaneously."
+        }
+      },
+      "anatomyTitle": "Function Anatomy"
+    },
+    "definingFunctions": {
+      "navTitle": "Defining Functions",
+      "title": "Defining Functions",
+      "paragraph1": "Functions are defined using the <code>def</code> keyword followed by the function name, parentheses, and a colon. The function body is indented.",
+      "namingRulesTitle": "Function Naming Rules",
+      "namingRules": [
+        "Use lowercase with underscores",
+        "Start with a letter or underscore",
+        "Be descriptive and clear",
+        "Avoid Python keywords"
+      ],
+      "bestPracticesTitle": "Best Practices",
+      "bestPractices": [
+        "Keep functions focused on one task",
+        "Use docstrings for documentation",
+        "Keep functions reasonably short",
+        "Use meaningful parameter names"
+      ],
+      "tipsTitle": "Function Definition Tips",
+      "tips": [
+        "The <code>def</code> keyword defines the function but doesn't execute it",
+        "Functions must be defined before they are called",
+        "Indentation defines the function body",
+        "Functions can be defined inside other functions"
+      ]
+    },
+    "parametersArguments": {
+      "navTitle": "Parameters & Arguments",
+      "title": "Parameters & Arguments",
+      "paragraph1": "Parameters are variables in function definitions. Arguments are the actual values passed to functions when called.",
+      "requiredTitle": "Required Parameters",
+      "requiredDescription": "Must be provided when calling the function",
+      "defaultTitle": "Default Parameters",
+      "defaultDescription": "Have default values if not provided",
+      "keywordTitle": "Keyword Arguments",
+      "keywordDescription": "Arguments passed by name",
+      "passingMethodsTitle": "Argument Passing Methods",
+      "positionalTitle": "Positional Arguments:",
+      "keywordArgsTitle": "Keyword Arguments:",
+      "mixedTitle": "Mixed Arguments:"
+    },
+    "returnValues": {
+      "navTitle": "Return Values",
+      "title": "Return Values",
+      "paragraph1": "The <code>return</code> statement sends a value back to the function caller. Functions without explicit return statements return <code>None</code>.",
+      "bestPracticesTitle": "Return Best Practices",
+      "bestPractices": [
+        "Always return the same data type when possible",
+        "Use early returns to simplify logic",
+        "Return meaningful values",
+        "Document what the function returns"
+      ],
+      "typesTitle": "Return Value Types",
+      "types": [
+        "Single value: <code>return 42</code>",
+        "Multiple values: <code>return a, b</code>",
+        "Boolean: <code>return True</code>",
+        "None: <code>return</code> or no return"
+      ],
+      "importantTitle": "Important Notes",
+      "importantNotes": [
+        "<code>return</code> immediately exits the function",
+        "Code after <code>return</code> won't execute",
+        "Multiple return values are returned as a tuple",
+        "Functions without <code>return</code> implicitly return <code>None</code>"
+      ]
+    },
+    "scope": {
+      "navTitle": "Variable Scope",
+      "title": "Variable Scope",
+      "paragraph1": "Scope determines where variables can be accessed in your code. Python has local, global, and built-in scopes.",
+      "localTitle": "Local Scope",
+      "localDescription": "Variables defined inside functions",
+      "localNote": "Only accessible within the function",
+      "globalTitle": "Global Scope",
+      "globalDescription": "Variables defined outside functions",
+      "globalNote": "Accessible throughout the module",
+      "builtinTitle": "Built-in Scope",
+      "builtinDescription": "Python's built-in functions",
+      "builtinNote": "Always available (print, len, etc.)",
+      "legbTitle": "LEGB Rule",
+      "legbParagraph": "Python follows the LEGB rule for variable lookup:",
+      "legbRules": [
+        "<strong>L</strong>ocal - Inside the function",
+        "<strong>E</strong>nclosing - In any outer function",
+        "<strong>G</strong>lobal - At the module level",
+        "<strong>B</strong>uilt-in - In the built-in namespace"
+      ],
+      "bestPracticesTitle": "Scope Best Practices",
+      "bestPractices": [
+        "Minimize use of global variables",
+        "Use the <code>global</code> keyword sparingly",
+        "Pass values as parameters instead of using globals",
+        "Keep variable scope as narrow as possible"
+      ]
+    },
+    "errorHandling": {
+      "navTitle": "Error Handling",
+      "title": "Basic Error Handling",
+      "paragraph1": "Error handling allows your programs to gracefully handle unexpected situations without crashing. Use try-except blocks to catch and handle exceptions.",
+      "exceptionTypesTitle": "Common Exception Types",
+      "exceptionTypes": [
+        "<code>ValueError</code> - Invalid value for type",
+        "<code>TypeError</code> - Wrong data type",
+        "<code>ZeroDivisionError</code> - Division by zero",
+        "<code>IndexError</code> - List index out of range"
+      ],
+      "structureTitle": "Try-Except Structure",
+      "structureItems": [
+        "<code>try:</code> - Code that might fail",
+        "<code>except:</code> - Handle specific errors",
+        "<code>else:</code> - Runs if no errors",
+        "<code>finally:</code> - Always runs"
+      ],
+      "patternsTitle": "Error Handling Patterns",
+      "basicPatternTitle": "Basic Exception Handling:",
+      "specificPatternTitle": "Specific Exception Handling:",
+      "multiplePatternTitle": "Multiple Exception Types:"
+    },
+    "practice": {
+      "navTitle": "Practice",
+      "title": "Practice Exercises",
+      "exercise1Title": "Exercise 1: Basic Calculator",
+      "exercise1Description": "Create functions for basic arithmetic operations with error handling.",
+      "exercise2Title": "Exercise 2: Grade Calculator",
+      "exercise2Description": "Build a function that calculates and returns letter grades.",
+      "exercise3Title": "Exercise 3: User Input Validator",
+      "exercise3Description": "Create a function that safely gets and validates user input.",
+      "exercise4Title": "Exercise 4: Data Processor",
+      "exercise4Description": "Build functions to process and analyze a list of numbers.",
+      "ctaTitle": "Ready to Test Your Knowledge?",
+      "ctaDescription": "Take our interactive quiz to see how well you've mastered functions and error handling!",
+      "ctaButton": "Test My Knowledge"
+    }
+  }
+}

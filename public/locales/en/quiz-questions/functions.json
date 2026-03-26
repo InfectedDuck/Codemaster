@@ -1,0 +1,224 @@
+{
+  "questions": {
+    "fn_001": {
+      "question": "What keyword is used to define a function in Python?",
+      "options": ["function", "def", "define", "func"],
+      "explanation": "The def keyword is used to define functions in Python."
+    },
+    "fn_002": {
+      "question": "What will this function return?\n\ndef add_numbers(a, b):\n    a + b\n\nresult = add_numbers(3, 5)",
+      "options": ["8", "3", "5", "None"],
+      "explanation": "Without a return statement, functions return None by default."
+    },
+    "fn_003": {
+      "question": "What is a parameter in a function?",
+      "options": ["The value returned", "A variable in the function definition", "The function name", "A function call"],
+      "explanation": "Parameters are variables listed in the function definition that receive values when called."
+    },
+    "fn_004": {
+      "question": "What will this code print?\n\ndef greet(name=\"World\"):\n    return f\"Hello, {name}!\"\n\nprint(greet())",
+      "options": ["Hello, !", "Hello, World!", "Error", "Hello, name!"],
+      "explanation": "When no argument is provided, the default parameter value \"World\" is used."
+    },
+    "fn_005": {
+      "question": "What is the scope of a variable defined inside a function?",
+      "options": ["Global", "Local", "Universal", "Module"],
+      "explanation": "Variables defined inside functions have local scope and are only accessible within that function."
+    },
+    "fn_006": {
+      "question": "What is the purpose of a try-except block?",
+      "options": ["To define functions", "To handle errors", "To create loops", "To import modules"],
+      "explanation": "try-except blocks are used to handle exceptions and errors gracefully."
+    },
+    "fn_007": {
+      "question": "What will this function return?\n\ndef add(a, b=5):\n    return a + b\n\nresult = add(3)",
+      "options": ["3", "5", "8", "Error"],
+      "explanation": "The function uses the default value b=5, so it returns 3 + 5 = 8."
+    },
+    "fn_008": {
+      "question": "Which exception is raised when dividing by zero?",
+      "options": ["ValueError", "TypeError", "ZeroDivisionError", "ArithmeticError"],
+      "explanation": "ZeroDivisionError is specifically raised when attempting division by zero."
+    },
+    "fn_009": {
+      "question": "What will this code do?\n\ndef func():\n    global x\n    x = 10\n\nx = 5\nfunc()\nprint(x)",
+      "options": ["Print 5", "Print 10", "Error", "Print None"],
+      "explanation": "The global keyword allows the function to modify the global variable x."
+    },
+    "fn_010": {
+      "question": "How do you call a function named \"calculate\" with arguments 5 and 10?",
+      "options": ["calculate[5, 10]", "calculate(5, 10)", "call calculate(5, 10)", "run calculate(5, 10)"],
+      "explanation": "Functions are called by using their name followed by parentheses with arguments."
+    },
+    "fn_011": {
+      "question": "What happens when a function has multiple return statements?",
+      "options": ["All returns execute", "Only the first return executes", "Only the last return executes", "Error occurs"],
+      "explanation": "When a return statement is reached, the function immediately exits."
+    },
+    "fn_012": {
+      "question": "What will this function return?\n\ndef check_number(n):\n    if n > 0:\n        return \"positive\"\n    elif n < 0:\n        return \"negative\"\n    else:\n        return \"zero\"\n\nresult = check_number(0)",
+      "options": ["positive", "negative", "zero", "None"],
+      "explanation": "Since n equals 0, the else clause executes, returning \"zero\"."
+    },
+    "fn_013": {
+      "question": "Which is correct for calling a function with keyword arguments?",
+      "options": ["func(a=5, b=10)", "func(a:5, b:10)", "func(5=a, 10=b)", "func(a->5, b->10)"],
+      "explanation": "Keyword arguments use the format parameter_name=value."
+    },
+    "fn_014": {
+      "question": "What will this code output?\n\ntry:\n    x = 10 / 0\nexcept ZeroDivisionError:\n    print(\"Cannot divide by zero\")\nelse:\n    print(\"Division successful\")",
+      "options": ["Cannot divide by zero", "Division successful", "Both messages", "Error"],
+      "explanation": "The except block executes because ZeroDivisionError occurs; else block is skipped."
+    },
+    "fn_015": {
+      "question": "What is a docstring in a function?",
+      "options": ["A comment", "Documentation string", "A variable", "An error message"],
+      "explanation": "A docstring is a documentation string that describes what the function does."
+    },
+    "fn_016": {
+      "question": "What will this function return?\n\ndef multiply(*args):\n    result = 1\n    for num in args:\n        result *= num\n    return result\n\nprint(multiply(2, 3, 4))",
+      "options": ["9", "24", "6", "Error"],
+      "explanation": "*args allows variable number of arguments. 2 * 3 * 4 = 24."
+    },
+    "fn_017": {
+      "question": "In Python, what does the LEGB rule refer to?",
+      "options": ["Loop structure", "Variable scope resolution", "Function naming", "Error handling"],
+      "explanation": "LEGB stands for Local, Enclosing, Global, Built-in scope resolution order."
+    },
+    "fn_018": {
+      "question": "What will this code do?\n\ndef safe_divide(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        return 0\n\nresult = safe_divide(10, 0)",
+      "options": ["Return 10", "Return 0", "Raise error", "Return None"],
+      "explanation": "The except block catches ZeroDivisionError and returns 0."
+    },
+    "fn_019": {
+      "question": "What happens if you call a function before defining it?",
+      "options": ["It works fine", "NameError occurs", "Function returns None", "Python auto-defines it"],
+      "explanation": "Python raises a NameError if you try to call a function before it's defined."
+    },
+    "fn_020": {
+      "question": "What will this function return?\n\ndef get_info():\n    name = \"Alice\"\n    age = 25\n    return name, age\n\nresult = get_info()",
+      "options": ["Alice", "25", "(\"Alice\", 25)", "Error"],
+      "explanation": "Multiple return values are returned as a tuple."
+    },
+    "fn_021": {
+      "question": "What is the difference between parameters and arguments?",
+      "options": ["No difference", "Parameters are in definition, arguments are in calls", "Arguments are in definition, parameters are in calls", "Parameters are optional"],
+      "explanation": "Parameters are variables in function definitions, arguments are values passed when calling."
+    },
+    "fn_022": {
+      "question": "What will this code output?\n\nx = \"global\"\n\ndef test():\n    x = \"local\"\n    print(x)\n\ntest()\nprint(x)",
+      "options": ["global global", "local local", "local global", "global local"],
+      "explanation": "The function prints its local x, then the global x is printed outside."
+    },
+    "fn_023": {
+      "question": "Which block always executes in try-except-finally?",
+      "options": ["try", "except", "finally", "None guaranteed"],
+      "explanation": "The finally block always executes, regardless of whether an exception occurs."
+    },
+    "fn_024": {
+      "question": "What is the correct way to define a function with default parameters?",
+      "options": ["def func(a=5, b):", "def func(b, a=5):", "def func(a, b=5):", "Both B and C"],
+      "explanation": "Default parameters can come after required ones. Both orders B and C are valid."
+    },
+    "fn_025": {
+      "question": "What will this function do?\n\ndef process_list(lst):\n    lst.append(100)\n    return lst\n\nmy_list = [1, 2, 3]\nresult = process_list(my_list)\nprint(my_list)",
+      "options": ["[1, 2, 3]", "[1, 2, 3, 100]", "Error", "[100]"],
+      "explanation": "Lists are mutable; the function modifies the original list."
+    },
+    "fn_026": {
+      "question": "What type of exception occurs when converting \"abc\" to int?",
+      "options": ["TypeError", "ValueError", "ConversionError", "SyntaxError"],
+      "explanation": "ValueError is raised when a value has the right type but inappropriate value."
+    },
+    "fn_027": {
+      "question": "What will this code output?\n\ndef outer():\n    x = 10\n    def inner():\n        print(x)\n    inner()\n\nouter()",
+      "options": ["10", "Error", "None", "NameError"],
+      "explanation": "Inner functions can access variables from their enclosing scope."
+    },
+    "fn_028": {
+      "question": "What happens when you return without a value?",
+      "options": ["Error occurs", "Returns 0", "Returns None", "Returns empty string"],
+      "explanation": "A bare return statement or no return at all returns None."
+    },
+    "fn_029": {
+      "question": "How do you handle multiple exception types in one except block?",
+      "options": ["except ValueError, TypeError:", "except (ValueError, TypeError):", "except ValueError or TypeError:", "except ValueError and TypeError:"],
+      "explanation": "Multiple exception types are handled using a tuple in parentheses."
+    },
+    "fn_030": {
+      "question": "What will this function return?\n\ndef mystery(a, b, c=10):\n    return a + b * c\n\nresult = mystery(5, 2)",
+      "options": ["7", "25", "70", "Error"],
+      "explanation": "a=5, b=2, c=10 (default). Returns 5 + 2 * 10 = 5 + 20 = 25."
+    },
+    "fn_031": {
+      "question": "What is the purpose of the global keyword?",
+      "options": ["Create global variables", "Access global variables", "Modify global variables from functions", "Delete global variables"],
+      "explanation": "The global keyword allows functions to modify global variables."
+    },
+    "fn_032": {
+      "question": "What will this code do?\n\ntry:\n    result = int(\"123\")\nexcept ValueError:\n    print(\"Error\")\nelse:\n    print(\"Success\")\nfinally:\n    print(\"Done\")",
+      "options": ["Success Done", "Error Done", "Success", "Done"],
+      "explanation": "No error occurs, so else executes (\"Success\"), then finally always executes (\"Done\")."
+    },
+    "fn_033": {
+      "question": "What is the correct way to document a function?",
+      "options": ["# Comment above function", "Triple-quoted string inside function", "// Comment", "docstring() function"],
+      "explanation": "Docstrings are triple-quoted strings placed at the beginning of the function body."
+    },
+    "fn_034": {
+      "question": "What will this function return?\n\ndef calculate(x, y, operation=\"add\"):\n    if operation == \"add\":\n        return x + y\n    elif operation == \"subtract\":\n        return x - y\n    else:\n        return None\n\nresult = calculate(10, 5)",
+      "options": ["15", "5", "None", "Error"],
+      "explanation": "Default operation is \"add\", so it returns 10 + 5 = 15."
+    },
+    "fn_035": {
+      "question": "What happens when an exception is not caught?",
+      "options": ["Program continues", "Program terminates", "Exception is ignored", "Function returns None"],
+      "explanation": "Uncaught exceptions cause the program to terminate with an error message."
+    },
+    "fn_036": {
+      "question": "What will this code output?\n\ndef modify_value(x):\n    x = x + 10\n    return x\n\nvalue = 5\nresult = modify_value(value)\nprint(value)",
+      "options": ["5", "15", "10", "Error"],
+      "explanation": "Integers are immutable; the original variable is not modified."
+    },
+    "fn_037": {
+      "question": "What is the difference between return and print in a function?",
+      "options": ["No difference", "return sends value back, print displays value", "print sends value back, return displays value", "Both do the same thing"],
+      "explanation": "return sends a value back to the caller, print displays a value to the screen."
+    },
+    "fn_038": {
+      "question": "What will this function do?\n\ndef validate_input(value):\n    try:\n        num = int(value)\n        if num < 0:\n            raise ValueError(\"Negative number\")\n        return num\n    except ValueError as e:\n        print(f\"Error: {e}\")\n        return None\n\nresult = validate_input(\"-5\")",
+      "options": ["Return -5", "Return None and print error", "Raise exception", "Return 0"],
+      "explanation": "The function raises ValueError for negative numbers, which is caught and prints error."
+    },
+    "fn_039": {
+      "question": "What is the scope of function parameters?",
+      "options": ["Global", "Local to the function", "Depends on the parameter", "Built-in"],
+      "explanation": "Function parameters have local scope within the function."
+    },
+    "fn_040": {
+      "question": "What will this code output?\n\ndef test(**kwargs):\n    for key, value in kwargs.items():\n        print(f\"{key}: {value}\")\n\ntest(name=\"Alice\", age=25)",
+      "options": ["name: Alice age: 25", "Alice 25", "Error", "name age Alice 25"],
+      "explanation": "**kwargs collects keyword arguments into a dictionary."
+    },
+    "fn_041": {
+      "question": "When should you use try-except blocks?",
+      "options": ["Always", "Never", "When you expect possible errors", "Only for syntax errors"],
+      "explanation": "Use try-except when you anticipate that an operation might fail."
+    },
+    "fn_042": {
+      "question": "What will this function return?\n\ndef fibonacci(n):\n    if n <= 1:\n        return n\n    return fibonacci(n-1) + fibonacci(n-2)\n\nresult = fibonacci(4)",
+      "options": ["3", "4", "5", "Error"],
+      "explanation": "Fibonacci sequence: f(4) = f(3) + f(2) = 2 + 1 = 3."
+    },
+    "fn_043": {
+      "question": "What is the purpose of the pass statement in Python?",
+      "options": ["To define a function", "To create an empty loop", "To create an empty function", "To import a module"],
+      "explanation": "The pass statement is a null operation; it does nothing and is used as a placeholder."
+    },
+    "fn_044": {
+      "question": "What keyword is used to define a function in Python?",
+      "options": ["def", "function", "fun", "define"],
+      "explanation": "A function must be defined before it can be called in the script."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.\\(js|ts|json|md\\)$\")",
+      "Bash(head -100 /c/Users/ASUS/Desktop/projects/1st/Python_Programming_Course-main/pages/test/[topic].tsx)",
+      "Bash(wc -l /c/Users/ASUS/Desktop/projects/1st/Python_Programming_Course-main/pages/test/[topic].tsx)",
+      "Bash(find /c/Users/ASUS/Desktop/projects/1st/Python_Programming_Course-main -type d -not -path */node_modules* -not -path */.next*)",
+      "Bash(grep -r \"test\\\\|quiz\\\\|question\\\\|answer\" /c/Users/ASUS/Desktop/projects/1st/Python_Programming_Course-main/pages/test/[topic].tsx)",
+      "Bash(tail -100 /c/Users/ASUS/Desktop/projects/1st/Python_Programming_Course-main/pages/test/[topic].tsx)",
+      "Bash(wc -l \"c:/Users/ASUS/Desktop/projects/1st/Python_Programming_Course-main/pages/theory/\"*.tsx)",
+      "Bash(npx next:*)",
+      "Bash(1)"
+    ]
+  }
+}

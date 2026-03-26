@@ -1,0 +1,97 @@
+{
+  "title": "CodeMaster - Learn Python Programming",
+  "hero": {
+    "write": "Write",
+    "python": "Python",
+    "likeAPro": "Like a Pro.",
+    "description": "Build real projects. Master the fundamentals. Code with confidence.",
+    "startLearning": "Start Learning",
+    "tryEditor": "Try the Editor",
+    "topics": "Topics",
+    "exercises": "Exercises",
+    "practice": "Practice"
+  },
+  "features": {
+    "title": "Everything You Need",
+    "subtitle": "Theory, practice, and real-time coding. All in one place.",
+    "structuredTheory": "Structured Theory",
+    "structuredTheoryDesc": "Step-by-step lessons from Python basics to advanced concepts",
+    "interactivePractice": "Interactive Practice",
+    "interactivePracticeDesc": "Tests and challenges to reinforce your learning",
+    "liveCodeEditor": "Live Code Editor",
+    "liveCodeEditorDesc": "Write and execute Python code with instant feedback",
+    "tryItNow": "Try it now →",
+    "aiAssistant": "AI Assistant",
+    "aiAssistantDesc": "Get hints and code reviews from our intelligent AI"
+  },
+  "curriculum": {
+    "title": "Your Learning Path",
+    "subtitle": "A structured journey from fundamentals to advanced Python mastery",
+    "foundation": "Foundation",
+    "foundationItems": [
+      "Variables, Data Types & Operators",
+      "Control Structures (if/else, loops)",
+      "Functions & Basic Error Handling",
+      "String Manipulation & Formatting"
+    ],
+    "intermediate": "Intermediate",
+    "intermediateItems": [
+      "Data Structures (Lists, Dicts, Sets)",
+      "Object-Oriented Programming",
+      "File Handling & I/O Operations",
+      "Modules & Package Management"
+    ],
+    "advanced": "Advanced",
+    "advancedItems": [
+      "API Integration & Web Requests",
+      "Database Operations & SQL",
+      "Decorators & Context Managers",
+      "Testing & Debugging Techniques"
+    ],
+    "realProjects": "Real Projects",
+    "realProjectsItems": [
+      "Web Scraping Application",
+      "Data Analysis Dashboard",
+      "REST API Development",
+      "Machine Learning Project"
+    ]
+  },
+  "interactive": {
+    "title": "Learn by",
+    "titleBold": "Doing",
+    "description": "Practice with our Monaco-style code editor. Real-time feedback, instant execution, and intelligent suggestions.",
+    "syntaxHighlighting": "Real-time syntax highlighting",
+    "instantExecution": "Instant code execution",
+    "intelligentCompletion": "Intelligent completion",
+    "immediateFeedback": "Immediate feedback"
+  },
+  "progress": {
+    "title": "Track Your",
+    "titleBold": "Progress",
+    "description": "Monitor your journey with detailed analytics and personalized insights.",
+    "analytics": "Module-by-module analytics",
+    "recommendations": "Personalized recommendations",
+    "milestones": "Achievement milestones",
+    "streaks": "Daily learning streaks"
+  },
+  "aiSection": {
+    "title": "Your",
+    "titleHighlight": "AI",
+    "titleEnd": "Coding Tutor",
+    "description": "Go beyond traditional learning. Get instant help, code reviews, and debugging assistance.",
+    "instantHints": "Instant Hints",
+    "instantHintsDesc": "Get unstuck fast when tackling tough problems",
+    "codeReviews": "Code Reviews",
+    "codeReviewsDesc": "Detailed feedback on correctness and style",
+    "debugAssistant": "Debug Assistant",
+    "debugAssistantDesc": "Find and fix bugs with AI-powered help"
+  },
+  "cta": {
+    "title": "Ready to",
+    "titleBold": "Begin?",
+    "subtitle": "Join thousands mastering Python with our platform",
+    "startLearning": "Start Learning",
+    "tryEditor": "Try Editor",
+    "freeForever": "Free forever. No credit card required."
+  }
+}
