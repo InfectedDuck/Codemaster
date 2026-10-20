@@ -4,11 +4,19 @@
 
 Built with Next.js, TypeScript, Tailwind CSS, Pyodide (in-browser Python), and OpenRouter AI.
 
+**Live demo:** [codemasterbytoktar.vercel.app](https://codemasterbytoktar.vercel.app)
+
+![CodeMaster home page](docs/screenshots/home.png)
+
+| Theory lessons (Russian) | Coding challenges (Russian) |
+|---|---|
+| ![Theory page in Russian](docs/screenshots/theory-ru.png) | ![Challenges page in Russian](docs/screenshots/challenges-ru.png) |
+
 ---
 
 ## What This Is
 
-CodeMaster is a production-grade web application that teaches Python programming through four integrated learning modes:
+CodeMaster is a web application that teaches Python programming through four integrated learning modes:
 
 - **Theory** — 17 structured lessons from fundamentals to machine learning
 - **Practice** — Live Python editor running directly in the browser
